@@ -90,9 +90,7 @@ Private Sub TotalButton_Click()
                 Else
                     ''if there is more than one occurance of the item number
                     '' recall that the recurssive function knows that any item numbers it finds are duplicates, and can immediately be thrown into the error spot
-                    '' here we only need to take care of the first occurance of the duplicated value, nothing else
-
-
+                    '' here we only need to take care of the first occurance of the duplicated value, nothing els
                 End If
 
             End If
