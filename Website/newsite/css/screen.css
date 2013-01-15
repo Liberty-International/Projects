@@ -1,0 +1,1348 @@
+/*-------------------------------OLD CSS-----------------------------------------------------------*/
+
+/* Resets */
+ul {
+	padding:0;
+	margin:0 0 20px 0;
+	list-style:none;
+}
+ol{
+list-style-type: circle;	
+}
+
+h1, h2 {
+	padding:0;
+	margin:0 0 20px 0;
+	font-weight:normal;
+}
+
+p {
+	padding:0;
+	margin:0 0 20px 0;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+	color:#444;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+ul li {
+	padding:0px 0;
+}
+
+ul li input[type="text"], ul li input[type="password"], ul li input[type="email"] {
+	width:200px;
+}
+
+textarea {
+	width:400px;
+    height:150px;
+}
+
+/* Headers */
+h1 {
+	font-size:2.0em;
+}
+
+h2 {
+	font-size:1.4em;
+}
+
+.logo {
+	margin:0 0 5px 5px;
+	padding:0;
+	text-wrap:none;
+}
+.logo leftTitle {
+	position: absolute;
+	padding: 40px 0 0 5px;
+
+}
+.logo rightTitle {
+	position: absolute;
+	padding: 50px 0 0 615px;
+}
+
+.logo smallDot {
+	position: relative;
+	top: -2px;	
+}
+.logo subLink{
+	position: absolute;
+	width: 325px;
+	padding: 108px 0 0 575px;
+	color: #444444;
+	font: Arial, Helvetica, sans-serif
+	font-size: 14px;
+	font-weight: bold;
+}
+.logo a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+.logo a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+.logo a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+.logo a:focus {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+.logo a:active {
+	text-decoration: none; 
+}
+
+.bottomBar{
+	color: #444444;
+	line-height: 12px;
+	text-align: center;
+	vertical-align: middle;
+}
+.bottomBar a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+.bottomBar a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+.bottomBar a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+.bottomBar a:focus {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+.bottomBar a:active {
+	text-decoration: none; 
+}
+.bottomBar anIcon {
+	position: relative;
+	top: 5px; 
+}
+
+
+/* Containers */
+body {
+	background-image: url(../media/webBackground.png);
+	background-repeat: no-repeat;
+	font-family:Arial;
+	font-size:0.8em;
+}
+
+#container, footer {
+	background:#ddd;
+	width:920px;
+	margin:0 auto;
+	
+	/* For IE 8 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=225, Color='#808080')";
+		 For IE 5.5 - 7
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=225, Color='#808080');*/
+}
+footer{
+	padding: 5px 20px 15px 20px;	
+	border-top:1px dashed #aaa;
+	-moz-box-shadow: -7px 7px 10px #808080;
+	-webkit-box-shadow: -7px 7px 10px #808080;
+	box-shadow: -7px 7px 10px #808080;
+}
+
+header {
+	width:960px;
+	padding:0px;
+	margin:0 auto;
+}
+#containerFlush {
+	background:#DDD;
+	width:960px;
+	margin:0 auto;
+	
+	/* For IE 8 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=225, Color='#808080')";
+	 For IE 5.5 - 7 
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=225, Color='#808080')*/
+	
+	min-height:400px;
+	-moz-box-shadow: -7px 7px 10px #808080;
+	-webkit-box-shadow: -7px 7px 10px #808080;
+	box-shadow: -7px 7px 10px #808080;
+}
+#containerFlush a:link {
+	text-decoration: none; 
+	color: #444;
+	background: transparent;
+}
+#containerFlush a:visited {
+	text-decoration: none; 
+	color: #444; 
+}
+#containerFlush a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+}
+#containerFlush a:focus {
+	text-decoration: none; 
+	color: #CB9014; 
+}
+#containerFlush a:active {
+	text-decoration: none;
+}
+
+#container {
+	min-height:400px;
+	padding: 20px;
+	-moz-box-shadow: -7px 7px 10px #808080;
+	-webkit-box-shadow: -7px 7px 10px #808080;
+	box-shadow: -7px 7px 10px #808080;
+}
+
+.widget {
+	margin-bottom:20px;
+}
+
+.widget h2 {
+	margin:0 0 10px 0;
+	padding:0 5px;
+	font-weight:normal;
+	border-bottom:1px solid #aaa;
+}
+
+.widget .inner {
+	margin:0 10px;
+}
+
+/* Navigation */
+nav ul{
+	margin:0px;
+}
+nav ul li {
+	display:inline;
+	margin-right:10px;
+}
+
+nav ul li a {
+	text-decoration:none;
+}
+
+nav ul li.current {
+	
+}
+/* Login */
+#login li.link {
+	margin-top:5px;
+}
+
+/* Misc */
+.clear {
+	clear:both;
+}
+
+
+/*----------------------------------------End Old CSS----------------------*/
+
+
+
+
+@import url("reset.css");
+h2
+{
+  padding: 10px 15px; /*--ONLY FOR DERMNSTRATION PURPOSE. CHANGE THIS AS PER YOUR REQUIREMENT--*/
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*                                          CSS FOR MAIN NAVIGATION BAR STYLING STARTS HERE                                          */
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+ul#nav-bar
+{
+  float: left;
+  width: 960px;
+  height: 41px;
+  position: relative;
+  background-color: #444;
+  	z-index: 100;
+}
+
+/*--
+AS IE6 DOES NOT UNDERSTAND CHILD SELECTORS WE HAVE CREATED SEPARATE CLASS NAMES FOR LIST ITEMS AND THEIR LINKS. THIS WILL HELP US CREATING LESS COMPLICATED CSS FOR IE6.
+
+FOR "li" ENTER CLASS NAME: "top-menu"
+FOR "a" ENTER CLASS NAME" "top-menu"
+
+THE HTML CODE SHOULD BE SOMETHING LIKE THIS:
+
+<ul id="nav-bar">
+
+    <li class="top-menu"><a class="top-menu" href="#">Top Menu1</a></li>
+    <li class="top-menu"><a class="top-menu" href="#">Top Menu2</a></li>
+    <li class="top-menu"><a class="top-menu" href="#">Top Menu3</a></li>
+    ... ... ...
+
+</ul>
+
+--*/
+ul#nav-bar li.top-menu
+{
+  float: left;
+  height: 41px;  /*--THAT IS, HEIGHT OF NAVIGATION BAR INCLUDING BORDERS--*/
+  width: auto;
+}
+
+ul#nav-bar li a.top-menu
+{
+  float: left;
+  width: auto;
+  height: 41px;
+  padding: 0px 30px;
+  font: normal 1.4em/41px Arial, Helvetica, sans-serif;
+  text-align:center;
+  color: #ddd; /*--NAV MENU TEXT COLOR. CHANGE THIS AS PER YOUR REQUIREMENTS--*/
+}
+
+
+/*--CHANGE BACKGOUND GRADIENT AND TEXT COLOR OF NAV MENUS ON MOUSEOVER--*/
+ul#nav-bar li.top-menu:hover a.top-menu
+{
+  color: #ddd;
+  text-shadow: 0px 1px 1px #000;
+  background-color: #cb9014;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*                                          CSS FOR MAIN NAVIGATION BAR STYLING ENDS HERE                                            */
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*                                          GENERAL STYLES FOR DROPDOWN MENUS START HERE                                             */
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+GENERAL STYLE FOR LEVEL-ONE DROPDOWN MENU:
+
+WE HAVE KEPT THE WHOLE CONTENT OF A LEVEL-ONE DROPDOWN MENU INSIDE A "div" WITH CLASS NAME "level1" AND APPLIED CSS3 SHADOW AND GRADIENT TO THIS CONTAINER. AS WE'LL APPLY CSS3 TRANSITION EFFECT TO DROPDOWN MENUS THEY CANNOT BE CODED IN A TRADITIONAL WAY LIKE, POSITIONING "left: -9999px;" AND ON MOUSEOVER "left: auto;". HERE, INITIALLY WE'LL KEEP THE HEIGHT OF .level1 AS "0" AND ON MOUSEOVER WE'LL ASIGN ACTUAL HEIGHT AS PER THE DESIGN ("height: auto;" DOESN'T WORK WITH CSS3 TRANSITION). REMEMBER, DON'T ADD ANY TOP OR BOTTOM BORDER TO .level1 AS IT WILL CREATE UNWANTED PROBLEM WHEN USER MOVES MOUSE CURSOR NEAR THE BOTTOM BORDER OF MAIN NAV-BAR.
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.level1
+{
+		z-index: 100;
+  position: absolute;
+  top: 41px;
+  border: 1px solid #d1d1d1;
+  border-bottom: none;
+  border-top: none;
+  overflow: hidden;   /*--HIDE FLOWING OUT OF CONTENT DURING TRANSITION--*/
+
+  /*--CHANGE FOLLOWING TWO VALUES ON MOUSEOVER--*/
+  opacity: 0; /*--CHANGE OPACITY TO 1 ON MOUSEOVER--*/
+  height: 0px; /*--WE'LL CHANGE THIS HEIGHT ON MOUSEOVER--*/
+
+  background-color: #ddd;
+
+
+
+  /*--ADDING CSS3 SLIDING UP/DOWN EFFECT--*/
+  -webkit-transition: all 400ms ease-in 400ms; /*--TRANSITION DELAY 400ms--*/
+  -moz-transition: all 400ms ease-in 400ms;
+  -o-transition: all 400ms ease-in 400ms;
+  transition: all 400ms ease-in 400ms;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+SPECIFIC POSITIONING FOR LEFT-ALIGNED, RIGHT-ALIGNED AND FULL-WIDTH DROPDOWN MENUS. DEPENDING UPON YOUR PREFERENCE JUST ADD ANY OF THE FOLLOWING CLASS NAMES TO .level1:
+
+"left-aligned-dd" = FOR LEFT ALIGNED DROPDOWN MENU
+"first-dd" = FOR THE FIRST DROPDOWN MENU
+
+REASON BEHIND CREATING "first-dd":
+IN THIS ITEM WE HAVE CREATED A NAV-BAR WITH 20PX ROUNDED CORNER AND WE HAVE PREFERRED TO KEEP THE THE FIRST DROPDOWN MENU AND FULL-WIDTH DROPDOWN MENU 20PX AWAY FROM THE LEFT. HOWEVER, FOR "left-aligned-dd" THE DROPDOWN MENU IS POSITIONED RELATIVE TO ITS PARENT "li" AND WE'LL APPLY "left= 0px;" FOR THIS CLASS. BUT, THIS IS NOT APPLICABLE TO FIRST DROPDOWN MENU. THAT IS WHY, WE HAVE CREATED SEPARATE CLASS NAME FOR FIRST DROPDOWN MENU.
+
+FOR SEARCH OPTION DROPDOWN MENU, PLEASE CHECK STYLING OF SEARCH OPTIONS DROPDOWN MENU.
+-------------------------------------------------------------------------------------------------------------------------------------*/
+li.left-aligned-dd
+{
+  position: relative; /*--POSITION DROPDOWN MENUS RELATIVE TO "li"--*/
+  	z-index: 100;
+}
+
+/*--HIDE FOLLOWING THREE CODES FROM IE6--*/
+ul#nav-bar > li.left-aligned-dd .level1
+{
+  left: 0px;
+}
+
+ul#-bar > li.first-dd .level1, ul#nav-bar > li.full-width-dd .level1
+{
+  left: 0px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+WIDTH OF TWO COLUMN, THREE COLUMN, FOUR COLUMN AND FULL-WIDTH DROPDOWN MENUS:
+
+AS WE HAVE DECIDED TO KEEP FULL-WIDTH DROPDOWN MENU WIDTH = 920PX, WE PREFERRED TO KEEP THE COLUMN WIDTH 184PX (920 / 5 = 184). YOU CAN ALWAYS REPLACE THESE COLUMN WIDTHS WITH YOUR OWN AS PER YOUR REQUIREMENTS. DO NOT FORGET TO OVERRIDE/REPLACE THESE DROPDOWN MENU WIDTHS IF YOU HAVE CHANGED THE COLUMN WIDTHS OR IF YOU HAVE VERTICAL BORDERS BETWEEN COLUMNS. WE HAVE CUSTOMIZED THESE VALUES FOR TWO COLUMN AND THREE COLUMN DROPDOWN MENUS (PLEASE CHECK THE RELAVANT SECTIONS BELOW).
+
+DROPDOWN MENU WIDTHS:
+
+ONE COLUMN DROPDOWN MENU: 184PX
+TWO COLUMN DROPDOWN MENU: 368PX
+THREE COLUMN DROPDOWN MENU: 552PX
+FOUR COLUMN DROPDOWN MENU: 736PX
+FULL-WIDTH DROPDOWN MENU: 920PX
+
+FOR MEMBERS AND CONTACT DROPDOWN MENU WE HAVE CUSTOMIZED THESE VALUES AND KEPT THE COLUMN WIDTHS AS 300PX.
+
+MEMBERS DROPDOWN MENU: 300PX
+CONTACT DROPDOWN MENU: 600PX
+
+STYLING OF SEARCH OPTION DROPDOWN MENU IS QUITE DIFFERENT FROM OTHER DD MENUS. FOR SEARCH OPTION DROPDOWN MENU PLEASE CHECK STYLING OF SEARCH OPTIONS DROPDOWN MENU BELOW.
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--WIDTHS OF DROPDOWN BOXES--*/
+div.onecol-dd
+{
+  width: 184px;
+}
+div.full-width-dd
+{
+  width: 958px;
+}
+
+div.members-dd
+{
+  width: 200px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+STYLING OF COLUMNS FOR DROPDOWN BOXES:
+
+IN THIS TEMPLATE BASIC SINGLE COLUMN WIDTH IS 154px WHICH ALSO HAS 15px PADDING ON LEFT AND RIGHT SIDE.
+
+WE HAVE CREATED FIVE COLUMN WIDTHS FOR THIS TEMPLATE. HOWEVER, YOU CAN CREATE MORE COLUMNS AND ASSIGN CLASS NAMES LIKE "dd-col6", "dd-col7", etc. YOU CAN ALSO CHANGE THE VALUES OF COLUMN WIDTHS HERE AS PER YOUR REQUIREMENTS, FOR EXAMPLE, YOU CAN ARRANGE YOUR COLUMN WIDTHS ACCORDING TO 960GS. CHECK THE FOLDER: "basic template based on 960gs".
+
+IF YOU NEED TO USE DIFFERENT COLUMN WIDTHS IN A DROPDOWN MENU WHICH DO NOT FOLLOW ANY OF THE BASIC COLUMN WIDTHS THEN YOU CAN CUSTOMIZE THEM WHILE STYLING THAT SPECIFIC DROPDOWN MENU. WE HAVE DONE THIS FOR "MEMBERS" AND "CONTACT" DROPDOWN MENU.
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.dd-col1, .dd-col2, .dd-col3, .dd-col4, .dd-col5
+{
+  float: left;
+  padding: 0px 15px;
+  padding-bottom: 15px; /*--JUST FOR DEMONSTRATION. CHANGE THIS AS PER YOUR REQUIREMENTS--*/
+  font: normal 11px Verdana, Geneva, Tahoma, sans-serif;/*--JUST FOR DEMONSTRATION. CHANGE THIS AS PER YOUR REQUIREMENTS--*/
+}
+
+.dd-col1
+{
+  width: 154px;  /*184-30 = 154*/
+  height:158px;
+}
+
+.dd-col2
+{
+  border-left:1px dashed #aaa;
+  width: 375px;  /*368-30 = 338*/
+  height:158px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+COMMON STYLE FOR TEXT/PASSWORD INPUTS AND TEXTAREA. WE'LL OVERRIDE THESE STYLES IN SPECIFIC CASES LIKE, SEARCH FIELD.
+SINCE IE6 DOES NOT SUPPORT ATTRIBUTE SELECTORS WE NEED TO TARGET SEPARATE IDs FOR THESE INPUTS IN "nav-IE6.css"
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.level1 input[type="text"],      /*--FOR TEXT INPUT FIELDS--*/
+li.searchbox-dd input[type="text"], /*--FOR SEARCH INPUT FIELD--*/
+.level1 input[type="password"], /*--FOR PASSWORD INPUT FIELDS--*/
+.level1 textarea  /*--FOR TEXTAREA--*/
+{
+  width: auto;
+  height: auto;
+  border: none;
+  padding: 5px 10px;
+  color: #444;
+  font: normal 1em Verdana, Tahoma, Geneva, sans-serif;
+
+ /*--CREATING INSET SHADOW--*/
+  -webkit-box-shadow: 0px 1px 2px #7f7f7f inset;
+  -moz-box-shadow: 0px 1px 2px #7f7f7f inset;
+  box-shadow: 0px 1px 2px #7f7f7f inset;
+}
+
+/*--:FOCUS AND :HOVER STYLE--*/
+.level1 input[type="text"]:hover, .level1 input[type="text"]:focus,  /*--FOR TEXT INPUT FIELDS--*/
+li.searchbox-dd input[type="text"]:hover, li.searchbox-dd input[type="text"]:focus, /*--FOR SEARCH INPUT FIELD--*/
+.level1 input[type="password"]:hover, .level1 input[type="password"]:focus, /*--FOR PASSWORD INPUT FIELDS--*/
+.level1 textarea:hover, .level1 textarea:focus  /*--FOR TEXTAREA--*/
+{
+  background-color: #ffede1;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+SLIDING UP/DOWN ANIMATION OF THE DROPDOWN MENU:
+
+FOR SLIDING UP/DOWN ANIMATION WE NEED TO KEEP THE WHOLE CONTENT INSIDE A CONTAINER AND ANIMATE THE WHOLE DIV. HERE "dd-container" (dd = dropdown) HOLDS ENTIRE CONTENT OF EVERY DROPDOWN MENU (EXCEPT "onecol-dd" DROPDOWN MENU) AND WE HAVE APPLIED CSS3 TRANSITION EFFECT TO IT.
+
+IN ORDER TO CREATE THIS EFFECT WE NEED TO HIDE THE OVERFLOW OF ".level1" (THAT IS, THE PARENT OF "div.dd-container"). BUT IF ".level1" CONTAINS FLYOUT MENUS IT NEEDS TO UNHIDE THE OVRFLOW ON MOUSEOVR. AS "div.onecol-dd" CONTAINS FLYOUT MENUS WE HAVE CREATED SIMPLE "ease-in" CSS3 TRANSITION EFFECT FOR THIS DROPDOWN MENU.
+-------------------------------------------------------------------------------------------------------------------------------------*/
+.level1 > div.dd-container
+{
+  position: relative;
+
+  /*--ADDING CSS3 SLIDING UP/DOWN EFFECT--*/
+  -webkit-transition: all 400ms ease-in 400ms;
+  -moz-transition: all 400ms ease-in 400ms;
+  -o-transition: all 400ms ease-in 400ms;
+  transition: all 400ms ease-in 400ms;
+}
+
+/*-------SHOW/HIDE DROPDOWN BOX ON MOUSEOVER/MOUSEOUT. HERE WE NEED TO ENTER ACTUAL HEIGHT OF ".level1" IN ORDER TO PERFORM CSS3 TRANSITION. CHANGE THESE VALUES AS PER YOUR DESIGN REQUIREMENTS-----*/
+ul#nav-bar > li:hover .level1
+{
+  opacity: 1;
+  height: auto; /*--ENTER ACTUAL HEIGHT FOR EACH DROPDOWN MENU SEPARATELY--*/
+}
+
+ul#nav-bar > li:hover div.dd-container
+{
+  top: 0px;  /*--POSITION OF DROPDOWN MENU CONTAINER AFTER MOUSEOVER--*/
+}
+
+/*-----------------------ONE COLUMN DROPDOWN-------------------*/
+/*-- IF DROPDOWN MENU CONTAINS FLYOUT MENUS THEN YOU NEED TO INSERT "overflow: visible;"--*/
+div.onecol-dd
+{
+  overflow: visible;  /*--UNHIDE OVERFLOW FOR FLYOUT MENUS--*/
+}
+
+ul#nav-bar > li:hover div.onecol-dd
+{
+  height: 158px; /*--ACTUAL HEIGHT OF THE DROPDOWN MENU IN ORDER TO EXPERIENCE CSS3 TRANSITION EFFECT--*/
+ /*--(34+1) x 16 - 1 = 524. 34px = HEIGHT OF EACH DROPDOWN LINK, 14 = NUMBER OF LINKS. ADD 1PX FOR EACH TOP BORDER. DELETE 1PX AS TOP LINK DOES NOT HAVE ANY TOP BORDER. ADJUST THE HEIGHT OF SINGLE COLUMN DROPDOWN MENU AS PER THE NUMBER OF DROPDOWN LINKS YOU HAVE--*/
+}
+
+/*--CHANGE HEIGHT AND OPACITY OF LIST ITEMS IN SINGLE COLUMN DROPDOWN MENU--*/
+ul#nav-bar > li:hover div.onecol-dd > ul > li
+{
+  height: 35px;
+  visibility: visible;
+}
+
+/*--CHANGE HEIGHT OF LINKS IN SINGLE COLUMN DROPDOWN MENU--*/
+ul#nav-bar > li:hover div.onecol-dd > ul > li > a
+{
+  height: 34px;
+}
+
+
+/*---------------------FULL-WIDTH DROPDOWN------------------*/
+ul#nav-bar > li:hover div.full-width-dd
+{
+  height: 118px; /*--ACTUAL HEIGHT OF THE DROPDOWN MENU IN ORDER TO EXPERIENCE CSS3 TRANSITION EFFECT--*/
+}
+
+div.full-width-dd > div.dd-container
+{
+  top: -118px;  /*--HEIGHT OF "full-width-dd"--*/
+}
+
+/*---------------------MEMBERS DROPDOWN---------------------*/
+ul#nav-bar > li:hover div.members-dd
+{
+  height: 200px; /*--ACTUAL HEIGHT OF THE DROPDOWN MENU IN ORDER TO EXPERIENCE CSS3 TRANSITION EFFECT--*/
+}
+
+/*--POSITION OF DROPDOWN MENU CONTAINER BEFORE MOUSEOVER--*/
+div.members-dd > div.dd-container
+{
+  top: -200px;  /*--HEIGHT OF "div.members-dd"--*/
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*                                          GENERAL STYLES FOR DROPDOWN MENUS END HERE                                               */
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*                                          CUSTOMIZED STYLES FOR DRODOWN MENUS START HERE                                           */
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/* HERE GOES CSS FOR CUSTOMIZED DROPDOWN MENUS. WE HAVE CUSTOMIZED TWO COLUMN, THREE COLUMN, FOUR COLUMN AND FULL-WIDTH DROPDOWN MENUS FOR THIS TEMPLATE. WE HAVE KEPT PLENTY OF READY MADE OPTIONS IN THESE DROPDOWN MENUS SO THAT YOU CAN SIMPLY MAKE SOME CHANGES IN HTML/CSS CODES IN ORDER TO ACHIEVE YOUR REQUIREMENTS. YOU CAN SIMPLY CUSTOMIZE EACH OF THESE DROPDOWN MENUS OR ADD NEW DROPDOWN MENUS AS PER YOUR DESIGN REQUIREMENTS.--*/
+/*-----------------------------------------------------ONE COLUMN DROPDOWN MENU------------------------------------------------------*/
+
+
+/*--------------------------------------------------------FULL-WIDTH DROPDOWN MENU---------------------------------------------------*/
+/*--MODIFYING COLUMN PADDING--*/
+div.full-width-dd div.dd-col1
+{
+  padding: 0px 15px ;
+}
+div.full-width-dd div.dd-col1 li
+{
+  padding-bottom: 5px ;
+}
+div.full-width-dd div.dd-col1 img
+{
+  padding: 5px 15px 0px 15px;
+}
+div.full-width-dd div.dd-col3
+{
+  padding: 15px;
+}
+
+/*--STYLING LINKS OF TIER ONE--*/
+div.full-width-dd div.tier1 div ul
+{
+  display: inline-block;
+  width: 225;
+  margin-top: 5px;
+  
+}
+
+div.full-width-dd div.tier1 div ul li
+{
+  margin-top: 2px;
+  color: #444;
+  font-weight: bold;
+}
+
+div.full-width-dd div.tier1 div ul li a
+{
+  color: #CB9014;
+  line-height: 2.0;
+  
+}
+div.full-width-dd div.tier1 div ul li changeText
+{
+
+}
+#service_change, #resources_change, #aboutus_change{	
+  width: 375px;  
+  height:158px;
+  color: #444;
+  font-size: 18px;	
+  font-weight: bold;
+}
+div.full-width-dd div.tier1 div ul li a:hover
+{
+  text-decoration: underline;
+  color: #444;
+}
+
+/*------------------------------------------------------------MEMBERS DROPDOWN MENU--------------------------------------------------*/
+div.members-dd div.dd-col1
+{
+  width: 200px; /*--WE HAVE CHANGED THIS VALUE FROM 184PX TO 270PX AS PER OUR DESIGN REQUIREMENTS--*/
+}
+
+div.members-dd h2, div.members-dd 
+{
+  width: 200px; /*--WIDTH OF THE COLUMN--*/	
+}
+.top-menu left-aligned-dd{
+
+}
+div.members-dd h2
+{
+  padding-bottom: 7px; /*--CHANGING DEFAULT PADDING TO MATCH UP WITH THE LINE-HEIGHT OF TEXT BELOW HEADER--*/
+  padding-top: 10px;
+}
+div.members-dd li{
+  padding-bottom:50px;	
+}
+
+div.members-dd ul li a
+{
+  
+  color: #CB9014;
+  text-decoration: underline;
+}
+
+div.members-dd p a:hover
+{
+	color: #444;
+  text-decoration: underline;
+}
+/*----------------------FOR MOZILLA'S BUTTON BUG------------------*/
+button::-moz-focus-inner { padding: 0px; border: none; }  /*--OVERRIDES EXTRA PADDING IN FIREFOX FOR BUTTON ELEMENTS--*/
+
+
+
+/*----------------------index.php------------------*/
+#internalContainer{
+	position: relative;
+	width: 960px;
+	height: 590px;
+}
+#theMainWindow {
+	position: absolute;
+	width: 640px;
+	height: 590px;
+}
+#fbContent {
+	position: absolute;
+	width: 320px;
+	height: 390px;
+	top: 200px;
+	left: 640px;
+}
+#theContactWindow {
+	position: absolute;
+	width: 320px;
+	height: 200px;
+	left: 640px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align:center;
+	color: #444444;
+}
+
+/*----------------------sub page css------------------*/
+.topBar {
+	position: relative;
+	width:960px;
+	height:160px;
+	float:right;
+	background-color:#09337b;
+}
+.heading{
+	position: relative;
+	left:0px;
+	width:320px;
+	text-align:center;
+	font-weight:normal;
+	font-size:2.0em;
+	color: #ddd;
+	top: -160px;
+	line-height:160px;
+	vertical-align:central;	
+}
+.subHeading{
+	position: relative;
+	padding:20px;
+	margin:0 0 20px 0;
+	font-weight:normal;
+	font-size:2.0em;
+	color: #ddd;
+	top: -160px;
+	left:20px;
+	line-height:130px;
+	vertical-align:central;	
+}
+.topBar subImg{
+	left:320px;	
+}
+table { 
+	border-collapse:collapse;
+	position: relative;
+}
+
+table td{
+	vertical-align:top;	
+}
+#rightSideBar{	
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float:right;
+	background-color: #cb9014;
+	width:320px;
+}
+#leftSideText{	
+	position: relative;
+	color: #444;
+	padding: 20px;
+	float:left;
+	width:600px;
+	top: 0px;
+	left: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+}
+#subPageNav{
+	width: 320px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .78em;
+	font-weight: bold;
+	color:#ddd;
+	background-color:#09337b;	
+}
+#subPageNav a:link {
+	text-decoration: none; 
+	color: #DDD;
+	background: transparent;
+}
+#subPageNav a:visited {
+	text-decoration: none; 
+	color: #DDD; 
+}
+#subPageNav a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+}
+#subPageNav a:focus {
+	text-decoration: none; 
+	color: #CB9014; 
+}
+#subPageNav a:active {
+	text-decoration: none;
+}
+
+#subPageNavTextLeft{
+	float: left;
+	width:150px;
+}
+#subPageNavTextLeft ul li{
+	padding: 10px 5px;
+}
+#subPageNavTextRight{
+	float: right;
+	width:150px;
+}
+#subPageNavTextRight ul li{
+	padding: 10px 5px;	
+}
+#subPageCaption{
+	padding:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: normal;
+	color:#ddd;
+}
+/*-----------------------subsub code-------------------*/
+#leftSideBar{	
+	position: relative;
+	background-color: #cb9014;
+	width:320px;
+}
+#rightSideText{	
+	position: relative;
+	color: #444;
+	padding: 20px;
+	width:600px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	font-weight: normal;
+}
+#rightSideText a:link {
+	color: #09337b;
+}
+#rightSideText a:visited {
+	color: #09337b; 
+}
+#rightSideText a:hover {
+	color: #CB9014; 
+}
+#rightSideText a:focus {
+	color: #09337b; 
+}
+#rightSideText a:active {
+	text-decoration: none; 
+}
+
+#subPageCaption{
+	padding:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	font-weight: normal;
+	color:#ddd;
+}
+#subPageCaption a:link {
+	color: #ddd;
+}
+#subPageCaption a:visited {
+	color: #ddd; 
+}
+#subPageCaption a:hover {
+	color: #09337b; 
+}
+#subPageCaption a:focus {
+	color: #ddd; 
+}
+#subPageCaption a:active {
+	text-decoration: none; 
+}
+
+/* ------- SITEMAP CODE ---------*/
+#sitemap_leftDiv{
+	position: relative;
+	padding-top: 20px;
+	font-size: .9em;
+	width: 320px;
+}
+#sitemap_centerDiv{
+	position: relative;
+	padding-top: 20px;
+	font-size: .9em;
+	width: 320px;
+}
+#sitemap_rightDiv{
+	position: relative;
+	padding-top: 20px;
+	font-size: .9em;
+	width: 320px;
+}
+
+/* ------- internal table properties---------*/
+#regularTable { 
+	border-collapse:collapse;
+	font-size: 1em;
+	color: #444;
+}
+#regularTable td{
+	vertical-align:top;	
+	width: 300px;
+}
+
+#twoColTable { 
+	border-collapse:collapse;
+	font-size: 1em;
+	color: #444;
+}
+#twoColTable td{
+	vertical-align:top;	
+	width: 300px;
+}
+#twoColTable td ul li{
+	padding: 0px 0px 5px 5px;
+}
+
+/* ------- full width internal text properties---------*/
+#fullWidthTable { 
+	border-collapse:collapse;
+}
+#fullWidthTable td{
+	vertical-align:top;	
+	width: 960px;
+}
+#fullInternalDiv{
+	position: relative;
+	color: #444;
+	padding: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: .7em;
+	font-weight: normal;
+}
+
+/* ------- testimonials---------*/
+
+#companyProfilePicture{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background-color: #eee;	
+	padding: 10px;
+}
+
+/* ------- corp memberships---------*/
+#corpMembTable { 
+	border-collapse:collapse;
+	font-size: 1em;
+	color: #444;
+}
+#corpMembTable td{
+	vertical-align:top;	
+	width: 460px;
+}
+#corpMembTable td ul li{
+	padding: 0px 0px 5px 5px;
+}
+
+/* ------- govt sites---------*/
+#govtSitesTable { 
+	border-collapse:collapse;
+	font-size: 1em;
+	color: #444;
+}
+#govtSitesTable td{
+	vertical-align:top;	
+	width: 306px;
+}
+#govtSitesTable td ul li{
+	padding: 0px 0px 5px 5px;
+}
+
+/* ------- industry links---------*/
+#industryLinksTable { 
+	border-collapse:collapse;
+	font-size: 1em;
+	color: #444;
+}
+#industryLinksTable td{
+	vertical-align:top;	
+	width: 460px;
+}
+#industryLinksTable td ul li{
+	padding: 0px 0px 5px 5px;
+}
+
+.industryLinksInternalTable { 
+	border-collapse:collapse;
+	font-size: 1.1em;
+}
+.industryLinksInternalTable td{
+	vertical-align:top;	
+	width: 460px;
+}
+.industryLinksInternalTable td ul li{
+	padding: 5px 0px;
+}
+.internalDiv{
+	position: relative;
+	width: 145px;
+	height: 130px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+/* ------- documents & fact sheets---------*/
+#docsLinksTable { 
+	border-collapse:collapse;
+	font-size: 1.0em;
+	color: #444;
+}
+#docsLinksTable td{
+	vertical-align:top;	
+	text-align:center;
+}
+#docsLinksTable td ul li{
+	padding: 0px 0px 5px 5px;
+}
+
+
+/* ------- company news---------*/
+.jobPosting{
+	width: 440px;
+	height: 165px;
+	overflow: scroll;
+	overflow-x:hidden;
+	border-style:solid;
+	border-width: thin;	
+	padding: 5px;
+}
+#articleSection{
+	width: 450px;
+	height: 547px;
+	overflow: scroll;
+	overflow-x:hidden;
+	padding: 5px;
+	border-style:solid;
+	border-width: thin;	
+}
+/* ------- profiles---------*/
+#profileTable { 
+	border-collapse:collapse;
+	width:920px;
+}
+#profileTable td{
+	vertical-align:top;	
+}
+
+/* ------- uploader---------*/
+
+option {
+font-weight: bold;
+}
+option:hover {
+cursor: pointer;
+}
+input, select {
+border:1px solid #D9D9D9;
+border-top:1px solid #C0C0C0;
+font-size:14px;
+outline:none;
+padding:5px;
+}
+input:hover , select:hover {
+border:1px solid #C0C0C0;
+border-top: 1px solid #777;
+}
+input:focus , select:focus {
+border:1px solid #006ac2;
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}
+hr { 
+border:none;
+color:white;
+height:1px;
+background:#ccc;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 600, from(#ccc), to(#fff)); 
+}
+
+/* Selectie */
+::selection {
+background:#000;
+color:#fff;
+}
+::-moz-selection {
+background:#000;
+color:#fff;
+}
+::-webkit-selection {
+background:#000;
+color:#fff;
+}
+
+.contentBorder {
+position: relative;
+padding: 10px;
+background: #444;
+width: 500px;
+}
+.content {
+padding: 10px;
+width: 480px;
+min-height:160px;
+background: #ddd;
+overflow: hidden;
+}
+.halfContent {
+float: right;
+width: 350px;
+}
+
+.metriccontentBorder {
+position: relative;
+padding: 10px;
+background: #444;
+width: 300px;
+}
+.metriccontent {
+padding: 10px;
+width: 280px;
+background: #ddd;
+overflow: hidden;
+}
+.error {
+font-family: Verdana, Tahoma, Arial, sans-serif;
+padding: 5px;
+border: 1px solid #cc0000;
+background: #ffc0cf;
+color: #b40a34;
+border-radius: 3px;
+margin: 10px 0;
+}
+.success {
+font-family: Verdana, Tahoma, Arial, sans-serif;
+padding: 5px;
+border: 1px solid #1dcc00;
+background: #c0ffc1;
+color: #1dcc00;
+border-radius: 3px;
+margin: 10px 0;
+}
+.neutral {
+font-family: Verdana, Tahoma, Arial, sans-serif;
+padding: 5px;
+border: 1px solid #56a6ea;
+background: #dbefff;
+color: #56a6ea;
+border-radius: 3px;
+margin: 10px 0;
+}
+.neutral a {
+color: #006ac2;
+font-weight: bold;
+}
+.neutral a:hover {
+color: #000;
+}
+.success a {
+color: #18a600;
+font-weight: bold;
+}
+.success a:hover {
+color: #000;
+}
+input[type="submit"]{
+background-color: #cb9014;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#56A6EA),to(#006AC2));
+background-image: -webkit-linear-gradient(top,#56A6EA,#006AC2);
+background-image: -moz-linear-gradient(top,#56A6EA,#006AC2);
+background-image: -ms-linear-gradient(top,#56A6EA,#006AC2);
+background-image: -o-linear-gradient(top,#56A6EA,#006AC2);
+background-image: linear-gradient(top,#56A6EA,#006AC2);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#56A6EA',EndColorStr='#006AC2');
+border: 1px solid #006AC2;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-user-select: none;
+-webkit-user-select: none;
+color: white;
+cursor: pointer;
+font-size: 11px;
+font-weight: bold;
+height: 28px;
+/* min-width: 54px; */
+text-align: center;
+padding: 0 8px;
+margin-top: -10px;
+}
+input[type="submit"]:hover{
+border: 1px solid #cb9014;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+input[type="submit"]:active {
+background-color: #cb9014;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#006AC2),to(#56A6EA));
+background-image: -webkit-linear-gradient(top,#006AC2,#56A6EA);
+background-image: -moz-linear-gradient(top,#006AC2,#56A6EA);
+background-image: -ms-linear-gradient(top,#006AC2,#56A6EA);
+background-image: -o-linear-gradient(top,#006AC2,#56A6EA);
+background-image: linear-gradient(top,#006AC2,#56A6EA);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#006AC2',EndColorStr='#56A6EA');
+}
+.uploadForm input, .uploadFormselect {
+	width: 460px;
+	padding: 10px;
+	border: 2px dashed #09337b;
+}
+.uploadForm input:hover,.uploadForm input:active, .uploadForm input:focus {
+	padding: 10px;
+	border: 2px dashed #cb9014;
+}
+button.uploadButton {
+font-family: Verdana, Tahoma, sans-serif;
+color: #6b6b6b;
+font-size: 12px;
+background: #F3F3F3;
+background: -webkit-gradient(linear,left top,left bottom,from(whiteSmoke),to(#F1F1F1));
+background: -moz-linear-gradient(top,whiteSmoke,#F1F1F1);
+background: -o-linear-gradient(top,whiteSmoke,#F1F1F1);
+border: 1px solid #b1b1b1;
+text-align: center;
+width: auto;
+padding: 5px 5px;
+border-radius: 3px;
+text-decoration: none;
+margin-top: 10px;
+}
+button.uploadButton:hover {
+border-color: #cb9014;
+color: #333;
+box-shadow: 0px 1px 1px #ccc;
+}
+button.uploadButton:active {
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEE), to(#E0E0E0));
+border-color: #BBB;
+box-shadow: rgb(204, 204, 204) 0px 1px 5px inset;
+-webkit-box-shadow: rgb(204, 204, 204) 0px 1px 5px inset;
+z-index: 2;
+color: #000;
+}
+.randTabel {
+background: #f5f5f5;
+width: 690px;
+float: left;
+padding: 5px 5px;
+border-radius: 3px;
+border: 1px solid #e8e8e8;
+margin: 5px 0;
+}
+.randTabel:hover {
+background: #d6ecff;
+border: 1px solid #7eafd7;
+}
+.numeTabel {
+width: 550px;
+float: left;
+}
+.sizeTabel {
+width: 70px;
+float: left;
+text-align: right;
+}
+.xTabel {
+width: 20px;
+float: left;
+text-align: right;
+}
+.privateTabel {
+width: 50px;
+float: left;
+text-align: right;
+}
+input.loginSubmit{
+	margin-top:5px;
+	height: 25px;
+}
+input.loginSubmit:hover{
+	margin-top:5px;
+	height: 25px;
+}
+input.loginSubmit:active {
+	margin-top:5px;
+	height: 25px;
+}
+
+.adminUtilityWidget{
+	padding: 10px;
+	color: #444;
+	border-bottom: 2px dashed #cb9014;
+}
+.metricUtilityWidget{
+	padding: 10px;
+	color: #444;
+	border-bottom: 2px dashed #cb9014;
+}
+
+#theFileTable { 
+	border-collapse:collapse;
+	width:308px;
+	font-size: 1.0em;
+	color: #444;
+}
+#theFileTable td{
+	vertical-align:top;
+	border-bottom: 1px dashed #cb9014;	
+}
+#theFileTable th{
+	vertical-align:top;	
+	border-bottom: 2px dashed #09337b;
+}
+
+#normalinput{
+width:180px;
+padding:5px;
+border:1px solid #D9D9D9;
+border-top:1px solid #C0C0C0;
+font-size:14px;
+outline:none;
+}
+#normalinput:hover{
+border:1px solid #C0C0C0;
+border-top: 1px solid #777;
+}
+#normalinput:focus{
+border:1px solid #006ac2;
+box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/*---------------------------HTML 5-------------------*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+

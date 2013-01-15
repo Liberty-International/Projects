@@ -1,0 +1,160 @@
+/*--CHANGING BOX-SHADOW OF NAV-BAR FOR IE8--*/
+ul#nav-bar
+{
+	box-shadow: 0px 0px 1px #5d5d5d;
+}
+
+ul#nav-bar li.top-menu
+{
+  height: auto;
+}
+
+/*--DUE TO PIE, MOUSEOVER EFFECT WAS SHOWING SOME PROBLEMS. SOMETIMES AFTER MOUSEOUT PIE WAS NOT UPDATING THE BACKGROUND OF "a.top-menu". THEREFORE INSTEAD OF APPLYING THE ROLL-OVER EFFECT TO THE LINK WE HAVE APPLIED IT TO "li.first-dd". IF YOU ARE NOT USEING PIE THEN PLEASE DELETE THIS PORTION--*/
+ul#nav-bar li.first-dd:hover a.top-menu
+{
+  background: none;
+}
+
+ul#nav-bar li.first-dd
+{
+  position: relative;  /*--FOR PIE--*/
+}
+
+/*--SHOW DROPDOWN MENU ON MOUSEOVER--*/
+ul#nav-bar > li:hover .level1
+{
+  height: auto;
+  top: 40px;
+  border-bottom: 2px solid #bebebe;
+}
+
+/*--BUTTONS SHOULD BE PIE COMPATIBLE--*/
+button
+{
+  position: relative; /*--FOR PIE--*/
+}
+
+/*----COMMON STYLE FOR ONE COLUMN DROPDOWN MENU-----*/
+div.onecol-dd
+{
+  overflow: hidden;  /*--HIDE OVERFLOW FOR FLYOUT MENUS--*/
+}
+
+ul#nav-bar > li:hover div.onecol-dd
+{
+  overflow: visible; /*--UNHIDE OVERFLOW FOR FLYOUT MENUS ON MOUSEOVER--*/
+}
+
+/*-------------------------------------CUSTOMIZATION OF FOUR COLUMN DROPDOWN MENU-----------------*/
+div.fourcols-dd div.tier1 div.col4 p
+{
+  position: relative; /*--FOR PIE--*/
+}
+
+/*----------------------------------MEMBERS, CONTACT AND SEARCH OPTIONS DROPDOWN MENU--------------------------*/
+/*--CREATING FAKE INSET SHADOW AT THE INPUT FIELD AND TEXT AREA--*/
+div.members-dd input[type="text"],
+div.members-dd input[type="password"],
+div.contact-dd input[type="text"],
+div.contact-dd textarea
+{
+  height: 14px;
+  padding: 3px 10px 7px;
+  border: none;
+  box-shadow: 0px -1px 2px #7f7f7f;
+  position: relative;  /*--FOR PIE--*/
+}
+
+div.contact-dd form textarea
+{
+  height: 115px; /*--OVERRIDE PREVIOUS HEIGHT--*/
+  padding: 7px 10px;   /*--OVERRIDE PREVIOUS PADDING--*/
+}
+
+/*--CREATING FAKE INSET SHADOW AT THE SEARCH INPUT FIELD--*/
+li.searchbox-dd input[type="text"]
+{
+  height: 14px;
+  padding: 5px 10px;
+  margin-top: 2px;
+  box-shadow: 0px -1px 2px #7f7f7f, 0px 1px 1px #adadad;
+  position: relative; /*--FOR PIE--*/
+}
+
+/*--IE8 HAS SOME GLITCHES WITH :FOCUS IN THE INPUT FIELD. SO REMOVE FOCUS. YOU CAN EASILY ACHIEVE THIS EFFECT USING JAVASCRIPT--*/
+div.members-dd input[type="text"]:focus,
+div.members-dd input[type="password"]:focus,
+div.contact-dd input[type="text"]:focus,
+div.contact-dd textarea:focus
+{
+  background-color: #dfe1e1;
+}
+
+li.searchbox-dd input[type="text"]:focus
+{
+  background-color: #fff;
+}
+
+/*--SHOW/HIDE SEARCH OPTION DROPDOWN BOX ON MOUSEOVER/MOUSEOUT--*/
+ul#nav-bar li.searchbox-dd:hover div.search-options
+{
+  left: -9999px; /*--HIDE DROPDOWN MENU--*/
+}
+
+ul#nav-bar li.searchbox-dd form:hover div.search-options
+{
+  height: auto;
+  left: auto;
+  top: 40px;
+  right: 16px;
+}
+
+/*----------------------------FLYOUT MENU GENERAL STYLE------------------------*/
+.level2, .level3, .level4
+{
+  border: 1px solid #b7b7b7;
+  border-bottom: 2px solid #bebebe;
+  left: -9999px;  /*--HIDE FLYOUT MENUS--*/
+}
+
+div.level1 ul.level2 li > a span
+{
+  margin: 4px;
+}
+
+/*--REVEAL FLYOUT MENUS ON MOUSEOVER--*/
+div.level1 > ul > li:hover div.level2 /*--2ND LEVEL FLYOUT MENU--*/
+{
+  left: 184px;
+}
+
+/*--REVEAL MULTI-LEVEL FLYOUT MENUS ON MOUSEOVER--*/
+div.level1 > ul > li:hover ul.level2, /*--2ND LEVEL FLYOUT MENU--*/
+div.level1 ul.level2 > li:hover ul.level3,  /*--3RD LEVEL FLYOUT MENU--*/
+div.level1 ul.level3 > li:hover ul.level4 /*--4TH LEVEL FLYOUT MENU--*/
+{
+  width: 184px;
+  left: 184px;
+  overflow: visible; /*--UNHIDE FOR NEXT LEVEL FLYOUT MENUS--*/
+}
+/*--------------------ELECTRONICS-FLYOUT MENU: RESET GENERAL MULTI-LEVEL MENU STYLE FOR LIST ITEMS----------------------*/
+/*--OVERRIDE GENERAL WIDTH "184px" AND SPECIFY THE WIDTH OF THIRD LEVEL ELECTRONICS FLYOUT MENU ON MOUSEOVER--*/
+div.level1 ul.level2 > li:hover ul.electronics-flyout-lvl3
+{
+  width: 440px;
+  overflow: hidden;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*--PIE FOR SIMULATING CSS3 IN IE. AUTHOR LINK: http://css3pie.com/--*/
+/*--WE HAVE PREFERRED NOT TO APPLY PIE TO ".level1", ".level2", ".level3" AND ".level4" AS WE HAVE NOTICED SOMETIMES PIE FAILS TO UPDATE CHANGE OF PROPERTIES AFTER MOUSEOUT. THIS MIGHT CREATE UNWANTED PROBLEMS LIKE: DROPDOWN MENU/FLYOUT MENU WON'T DISAPPEAR AFTER MOUSEOUT AND THEY WILL STAY UNTIL THE PAGE IS REFRESHED. PIE HAS QUITE A FEW ISSUES REGARDING MOUSEOVER. CHECK "instructions.html" FOR MORE INFO. */
+ul#nav-bar,
+ul#nav-bar li.first-dd,
+input, textarea, button,
+div.fourcols-dd div.tier1 div.col4 p,
+div.fourcols-dd div.tier2 div.highlight
+{ behavior: url(css/PIE.htc); }
+
+ul#nav-bar li.first-dd:hover { -pie-background: linear-gradient(#ffa200, #b4441d); }
+div.fourcols-dd div.tier1 div.col4 p { -pie-background: linear-gradient( #fff, #f4f4f4 8%, #f4f4f4 92%, #e8e9e7); }
+div.fourcols-dd div.tier2 div.highlight { -pie-background: linear-gradient( #9a9b9c, #202020 5%, #202020 95%, #9a9b9c); }
