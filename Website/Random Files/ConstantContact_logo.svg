@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="600px" height="300px" viewBox="0 0 600 300" enable-background="new 0 0 600 300" xml:space="preserve">
+<g id="Envelope">
+	<g id="Shadow" display="none">
+		
+			<image display="inline" overflow="visible" opacity="0.41" enable-background="new    " width="1008" height="555" xlink:href="A2288963.png"  transform="matrix(0.2844 0 0 0.2825 299.3105 25.3716)">
+		</image>
+		<g display="inline">
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="121.2451" y1="883.874" x2="379.3574" y2="883.874" gradientTransform="matrix(1 0 0 1 184 -785)">
+				<stop  offset="0.1593" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" style="stop-color:#DCE4F3"/>
+			</linearGradient>
+			<path fill="url(#SVGID_1_)" d="M372.652,64.781l-67.407,98.094c0,0,84.7-20.71,210.888-13.53l47.225-114.472
+				C480.999,37.137,372.652,64.781,372.652,64.781z"/>
+		</g>
+	</g>
+	<polygon id="Flap_Orange_1_" fill="#FAB41E" points="570.107,21.542 434.313,108.003 377.31,54.417 434.182,95.555 	"/>
+	<polygon id="Flap_Blue_1_" fill="#00468C" points="571.785,20.703 434.006,96.436 377.173,54.343 438.63,80.865 	"/>
+	<path id="Envelope_Outline_1_" fill="#00468C" d="M523.243,141.518c-93.027-10.385-213.82,8.865-213.82,8.865
+		s85.263-25.279,208.446-18.513l45.17-106.85c-73.348,4.29-186.212,27.269-186.212,27.269s78.213-24.538,197.183-35.09
+		L523.243,141.518z"/>
+</g>
+<g id="Tail">
+	<g>
+		<polygon fill="#FAB41E" points="252.611,82.889 270.233,81.088 255.825,96.132 237.929,96.492 		"/>
+		<polygon fill="#00468C" points="213.801,95.427 227.779,84.154 247.023,83.347 232.381,96.352 		"/>
+		<polygon fill="#FDE1A5" points="149.938,82.499 160.198,77.716 177.078,80.664 165.289,87.273 		"/>
+		<polygon fill="#FAB41E" points="181.732,81.904 198.376,83.451 186.297,91.957 170.28,88.532 		"/>
+		<polygon fill="#80A2C5" points="218.085,73.585 237.677,72.068 225.919,81.235 208.125,80.841 		"/>
+		<polygon fill="#00468C" points="372.282,53.87 352.29,61.606 334.539,85.885 353.073,81.504 		"/>
+		<polygon fill="#80A2C5" points="345.395,63.953 326.261,69.752 309.849,90.479 328.242,87.099 		"/>
+		<polygon fill="#00468C" points="319.878,71.435 303.807,91.424 285.462,93.853 301.217,75.801 		"/>
+		<polygon fill="#FDE1A5" points="293.038,60.807 315.353,53.782 297.771,73.653 277.745,77.068 		"/>
+		<polygon fill="#00468C" points="241.801,115.615 256.762,99.684 275.827,98.465 259.593,116.787 		"/>
+		<polygon fill="#80A2C5" points="219.97,112.978 234.225,99.836 252.342,99.772 237.563,115.181 		"/>
+		<polygon fill="#00468C" points="306.281,94.919 324.766,91.882 306.234,116.745 288.615,117.277 		"/>
+		<polygon fill="#FAB41E" points="329.521,115.305 349.52,86.697 330.994,90.662 312.063,116.433 		"/>
+		<polygon fill="#FAB41E" points="177.436,103.148 188.137,95.366 204.883,97.868 192.629,107.458 		"/>
+		<polygon fill="#FDE1A5" points="267.682,143.759 284.734,122.174 302.37,121.976 284.877,145.576 		"/>
+		<polygon fill="#80A2C5" points="143.764,103.851 155.106,97.26 169.984,103.52 158.125,111.806 		"/>
+		<polygon fill="#00468C" points="201.831,129.583 216.464,116.126 234.036,118.877 219.004,134.538 		"/>
+		<polygon fill="#80A2C5" points="180.625,122.029 194.151,111.159 211.236,115.123 196.81,127.938 		"/>
+		<polygon fill="#FDE1A5" points="163.943,135.341 178.062,124.092 194.177,130.239 179.89,142.958 		"/>
+		<polygon fill="#FAB41E" points="244.968,140.245 261.384,121.409 279.059,122.123 262.229,143.028 		"/>
+		<polygon fill="#80A2C5" points="206.28,153.646 220.647,138.209 237.256,142.067 222.211,158.984 		"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 14.3682 217.96)" fill="#00468C" font-family="'Arial-BoldItalicMT'" font-size="57">Global Facts Archive</text>
+<text transform="matrix(1 0 0 1 143.5 262.5)" fill="#FAB41E" font-family="'Arial-ItalicMT'" font-size="38">Add Subtext Here</text>
+<rect x="-120.5" y="-110.5" fill="none" width="3" height="3"/>
+</svg>
