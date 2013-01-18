@@ -1,0 +1,650 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" 
+      href="favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Company News</title>
+<style type="text/css">
+#logo {
+	position: relative;
+	width: 62px;
+	height: 128px;
+	z-index: 1;
+	left: 5px;
+	top: 5px;
+}
+
+#titleText {
+	position: relative;
+	width: 172px;
+	height: 60px;
+	z-index: 3;
+	left: 70px;
+	top: -85px;
+}
+#leftTitle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#rightTitle {
+	position: absolute;
+	left: 610px;
+	top: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #444444;
+}
+a:visited {
+	text-decoration: none;
+	color: #444444;
+}
+a:hover {
+	text-decoration: none;
+	color: #CB9014;
+}
+a:active {
+	text-decoration: none;
+	color: #444444;
+}
+#homeLink {
+	position: relative;
+	width: 40px;
+	height: 20px;
+	z-index: 4;
+	left: 648px;
+	top: -73px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#ISFportal {
+	position: relative;
+	width: 65px;
+	height: 20px;
+	z-index: 8;
+	left: 700px;
+	top: -93px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#AgentPortal {
+	position: relative;
+	width: 82px;
+	height: 20px;
+	z-index: 9;
+	left: 778px;
+	top: -113px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #444444;
+}
+#TrackTrace {
+	position: relative;
+	width: 90px;
+	height: 20px;
+	z-index: 10;
+	left: 873px;
+	top: -133px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#dot1 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 5;
+	left: 690px;
+	top: -146px;
+}
+#dot2 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 6;
+	left: 768px;
+	top: -150px;
+}
+#dot3 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 7;
+	left: 863px;
+	top: -154px;
+}
+#apMenuBar {
+	position: relative;
+	width: 960px;
+	height: 158px;
+	left : 0px;
+	top: -138px;
+	z-index: 40;
+}
+#theMenuBar {
+	position: relative;
+	width: 960px;
+	height: 168px;
+	left : 0px;
+	top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	z-index: 39;
+	font-weight: bold;
+	line-height:40px;
+}
+#theMenuBar a:link {
+	text-decoration: none; 
+	color: #FFF;
+	background: transparent;
+}
+#theMenuBar a:visited {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#theMenuBar a:focus {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:active {
+	text-decoration: none; 
+}
+#blueBox {
+	position: relative;
+	width: 320px;
+	height: 160px;
+	z-index: 27;
+	left: 0px;
+	top: -256px;
+	background-color: #09337B;
+}
+#pageTitleBox {
+	position: relative;
+	width: 320px;
+	height: 160px;
+	z-index: 33;
+	left: 0px;
+	top: -416px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	line-height:160px;
+}
+#topPicture {
+	position: relative;
+	width: 640px;
+	height: 160px;
+	z-index: 27;
+	left: 320px;
+	top: -576px;
+}
+#leftBackground {
+	position: relative;
+	width: 320px;
+	height: 523px;
+	z-index: 27;
+	left: 0px;
+	top: -576px;
+}
+#leftPicture {
+	position: relative;
+	width: 320px;
+	height: 320px;
+	z-index: 28;
+	top: -1099px;
+	left: 0px;
+}
+
+#graybox {
+	position: relative;
+	width: 960px;
+	height: 600px;
+	z-index: 25;
+	left: 0px;
+	top: -1419px;
+	background-color: #DDDDDD;
+}
+
+#pageIntroText {
+	position: relative;
+	width: 920px;
+	height: 80px;
+	z-index: 34;
+	left: 20px;
+	top: -2226px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #444444;
+}
+
+#mainTextBox {
+	position: relative;
+	width: 960px;
+	height: 600px;
+	z-index: 35;
+	left: 0px;
+	top: -2099px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #444444;
+}
+#leftDiv {
+	position: absolute;
+	width: 480px;
+	height: 580px;
+	left: 480px;
+	top: 10px;
+}
+#articleSection{
+	position: absoluge;
+	left: 0px;
+	width: 450px;
+	height: 538px;
+	overflow: scroll;
+	overflow-x:hidden;
+	padding: 5px;
+		border-style:solid;
+	border-width: thin;	
+}
+#rightDiv{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 450px;
+	height:580px;
+}
+#jobPosting{
+	position: absoluge;
+	left: 0px;
+	width: 440px;
+	height: 165px;
+	overflow: scroll;
+	overflow-x:hidden;
+	border-style:solid;
+	border-width: thin;	
+	padding: 5px;
+}
+#pictureCaption {
+	position: relative;
+	width: 1px;
+	height: 207px;
+	z-index: 36;
+	left: 25px;
+	top: -2276px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+#BottomText {
+	position: relative;
+	width: 760px;
+	height: 20px;
+	z-index: 2;
+	left: 10px;
+	top: -2292px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+	text-align: center;
+}
+#BottomText a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#BottomText a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#BottomText a:focus {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:active {
+	text-decoration: none; 
+}
+
+#ctpatLogo {
+	position: relative;
+	width: 49px;
+	height: 20px;
+	z-index: 20;
+	left: 790px;
+	top: -2312px;
+}
+#facebook {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 22;
+	left: 875px;
+	top: -2332px;
+}
+#linkedin {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 900px;
+	top: -2352px;
+}
+#youtube {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 925px;
+	top: -2372px;
+}
+#testDiv {
+	position: relative;
+	width: 980px;
+	height: 650px;
+	z-index: 1;
+	left: -20px;
+	top: -3206px;	
+}
+body {
+	background-image: url(LibertyInternationalFinal/testBkg.png);
+	background-repeat: no-repeat;
+	margin: 0;
+}
+#wrapper {
+	height: 972px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-bottom: 5px;
+}
+
+</style> 
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33758588-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body onLoad="MM_preloadImages('LibertyInternationalFinal/Logo(State 2).png')">
+
+<div id="wrapper">
+
+<!-- Logo rollover button-->
+<div id="logo">
+	<a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','LibertyInternationalFinal/Logo(State 2).png',1)">
+	<img src="LibertyInternationalFinal/Logo(State 1).png" name="Image9" width="62" height="128" img style="border-style: none;" id="Image9" /></a>
+</div>
+
+<!-- Liberty International Title Text  -->
+<div id="titleText">
+    <div id="leftTitle">
+        <img src="LibertyInternationalFinal/libinttext.png" alt="" width="172" height="80" />
+    </div>
+    <center><div id="rightTitle">
+        <img src="LibertyInternationalFinal/libinttext2.png" alt="" height="60" />
+    </div></center>
+</div>
+
+<!-- Top Right Links (Home, ISF, Agent, Track)-->
+<div id="homeLink"><a href="index.html" title="Liberty International" target="_self">Home</a></div>
+<div id="ISFportal"><a href="http://64.61.141.118/LIB10Plus2/login.aspx" title="ISF Portal" target="_self">ISF Portal</a></div>
+<div id="AgentPortal"><a href="http://64.61.141.115/lib_po/lib_po10.aspx" title="Agent Portal" target="_self">Agent Portal</a></div>
+<div id="TrackTrace"><a href="http://64.61.141.115/etrack/liblogin.asp" title="Track & Trace" target="_self">Track & Trace</a></div>
+
+<div id="dot1"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot2"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot3"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+
+
+<!-- Menu Bar SWF Object-->
+<div id="apMenuBar">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="LibertyInternationalFinal/Scripts/swfobject_modified.js"></script>
+<script type="text/javascript">
+			var flashvars = {};
+			var params = {};
+			params.wmode = "transparent";
+			var attributes = {};
+			swfobject.embedSWF("MenuBar.swf", "theMenuBar", "960", "168", "9.0.0", false, flashvars, params, attributes);
+		</script>
+	</head>
+	<body>
+		<div id="theMenuBar">
+        	&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="services.html">Services </a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="aboutus.html">About Us</a> 
+		</div>
+</body>
+</html>
+</div>
+
+<!-- blue Background Bar-->
+<div id="blueBox"></div>
+
+<div id="pageTitleBox">Company News</div>
+
+<!-- Top Pic Div-->
+<div id="topPicture"><img src="LibertyInternationalFinal/aboutus.subtop.jpg" width="640" height="160" /></div>
+
+<!-- Yellow Background Bar-->
+<div id="leftBackground"></div> 
+<!-- Left Col Pic Div-->
+<div id="leftPicture"></div>
+
+<!-- Main Gray Background-->
+<div id="graybox"></div>
+<div id="pageIntroText"></div>
+
+<div id="mainTextBox">	
+	<div id="leftDiv"><!-- Article Section, Scrolling-->
+    	<big><big><strong><center>Recent Company News</center></strong></big></big>
+        <p>
+    	<div id="articleSection">
+        
+        <p align="center"><strong>New Employee: Rebecca Bourgeault</strong></p>
+        
+        <p>Please allow me to introduce you to the newest member of the Liberty Team.  Her name is Rebecca Bourgeault and she will be working in Liberty’s Client Services, Brokerage and Inside Sales/Marketing Divisions providing administrative support.  We have gotten to know Rebecca over the past few weeks and wanted to tell you a little about her so you can get to know her too!</p>
+        <p>Rebecca went to Johnson and Wales University, recently graduating in May with a bachelor’s degree in international business with a concentration in marketing.</p>
+        <p>Rebecca sent time abroad on a work study program at Lottomatica in Italy and Union Bank in Albania.  Rebecca is currently pursuing Masters in business administration at Johnson and Wales as well.</p>
+        <p>In her junior year Rebecca was a marketing intern at Harkins Wealth Management where she was able to facilitate the company’s social media activities and promotions, helped build media contacts data base and enhance public relations, as well as maintain their prospective and new client lists and charts.</p>           
+        <p>Rebecca has a passion for traveling that started when she was 8.  Her first trip was with her family to Germany.  The love to travel started here and has been growing ever since.</p>
+        <p>In her spare time, Rebecca loves to spend time with her family and friends, to read and  cook/bake.  She is a huge New England Sports fan (especially the Patriots).</p>
+        <p>If you have not noticed already, Rebecca is an extremely outgoing, positive and social person and she is looking forward to getting to know everyone here at liberty!</p>
+        
+        <br></br>
+        <br></br>
+        
+        <p align="center">
+                <strong>Children’s Friend &amp; Service “Walk &amp; Run”</strong>
+            </p>
+            <p>
+                Marguerite Orosz, Margaret Cordeiro, AnnMarie St. Laurent and Danielle Conboy participated for Team Liberty in support of the 10<sup>th</sup> annual Walk
+                &amp; Run event for Children’s Friend &amp; Service on June 16, 2012. The event was well attended and held to raise funds and awareness to the summer
+                programs Children’s Friend offers the community and the challenges lower income families face when schools are closed for the summer. CF&amp;S works
+                tirelessly within the community to provide a safe environment for children to go during these summer months. Team Liberty exceeded their fund raising goal
+                this year and looks forward to next year’s event.
+            </p>
+            <br></br>
+            <br></br>
+            <p align="center">
+                <strong>Role of the Broker- CBP Holds Open Forum with the Boston Brokerage Community</strong>
+            </p>
+            <p>
+                7/13/12: Customs &amp; Border Protection gave the Boston brokerage community the opportunity to provide input on CBP’s efforts to update the customs broker
+                regulations, more specifically; 19CFR Part III.
+            </p>
+            <p>
+                Elena Ryan, Acting Director-Trade Facilitation and Administration, Office of International Trade and Anita Harris, Chief of Broker Compliance Branch,
+                Office of International Trade provided an interactive forum for CBP and licensed customs brokers to share their ideas and voice their concerns regarding
+                continuing education for licensed brokers, bona fides (ensuring the validity of a person or enterprise importing into the U.S.) and the broker permit pilot
+                (exploring ways to better align regulations with modern business practices by allowing brokers to have a local permit in ports without a licensed broker
+                permit qualifier).
+            </p>
+            <p>
+                The brokers and CBP discussed ways to establish a continuing education program that could be monitored by the Federal Government but would take into
+                consideration the needs of businesses (brokers and importers) that depend on continuing education to suit their customer’s needs and business practices.
+                Currently there are approximately 12,500 “active” licensed brokers in the United States. How will CBP monitor or track diverse educational requirements?
+            </p>
+            <p>
+                Discussions regarding bona fides addressed concerns the brokerage community has regarding their compliance in validating the information they receive from
+                potential importers vs. a broker who does not require the same documentation, ways to check validity (websites, documents, etc), and where the broker’s
+                responsibilities end and CBP’s begin.
+            </p>
+            <p>
+                The broker permit pilot discussion addressed the concerns of brokers who want to do entries in ports that can’t be supported by RLF (remote location
+                filing). Currently, only entry types 01 (formal consumption entries) 11 (informal entries) can be filed through RLF. In September 2012 type 03 (consumption
+                CVD/ADD entries) will be allowed, but only through ACE.
+            </p>
+            <p>
+                CBP expects to hold this open forum in all major U.S. ports.
+            </p>
+		</div>
+        </p>
+	</div>
+    
+    
+    <div id="rightDiv"><!--Job Postings-->
+    
+    	<big><big><strong><center>Current Job Postings</center></strong></big></big>
+        	<p><div id="jobPosting">
+            	<big><strong>Title:</strong> Transportation Consultant &nbsp;&nbsp;&nbsp;<u><a href="mailto:resume@libertyint.com ?subject=Corporate Administrative Assistant">Submit Resume</a></u></big>
+                	<p><strong>Type:</strong>  Full-Time</p>
+                <p<strong>Job Description:</strong> &nbsp; Liberty International is a client focused, privately held Customs Broker, Freight Forwarder, & Logistics provider founded in 1982 offering worldwide, full service end to end supply chain solutions.  We are an energetic sales organization built on the values of flawless customer service.
+Liberty is looking to hire a confidant individual with a solid work ethic, to fill an entry level role as Transportation Consultant in the Rhode Island market.  Our “Team” environment, unlimited earning potential, and dedication to your success through training and development will support you in your sales endeavors.
+The candidate must be upbeat, positive, and motivated for success.  We are seeking an individual who plans well using a constructive calendar to execute the Liberty mission and drive sales achievement.   Liberty Transportation Consultants prefer spending most of their time on the road meeting new people to secure new business.  They are comfortable on the telephone prospecting and qualifying leads, cold calling in person, meeting new people, networking and present themselves professionally.  Our Transportation Consultants are articulate and are comfortable making presentations.
+<p>- Exceed assigned revenue and target objectives within an assigned territory.</p>
+<p>- Self-generate new opportunities on new and existing sales leads.
+<p>- Responsible for developing and sourcing client relationships and referrals.
+<p>- Develop and implement plans and strategies to grow your territory.
+<p>- Work with the team to close business.
+<p>- Follow up on sales leads and develop opportunities.
+<p>- Construct pricing agreements and present to customers.
+<p>- Keeps management informed by submitting weekly call reports.
+<p>- Prospecting, presentation and relationship skills.
+<p>Education: College Degree preferred or industry experience.
+<p>Compensation: Salary commensurate with experience. Commission.
+        	</p>
+            </div></p>
+            
+        	<p><div id="jobPosting">
+            	<big><strong>Title:</strong> IT Division Administrative Assistant &nbsp;&nbsp;&nbsp;<u><a href="mailto:resume@libertyint.com ?subject=IT Division Administrative Assistant">Submit Resume</a></u></big>
+                	<p><strong>Type:</strong>  Full-Time</p>
+                <p<strong>Job Description:</strong> &nbsp;Full time position open in our Pawtucket location for an administrative assistant with strong technology skills.  The Administrative Assistant will run and distribute reports, monitor log files, and maintain client and other databases.  The Assistant will collaborate with our IT team to update our company website.  Great opportunity to learn more about hardware, software & telecom support by assisting IT staff with troubleshooting.  Other tasks will include filing, managing e-mail accounts and groups and managing the purchasing of supplies.  Strong Excel, Word and Outlook skills are required.  Dreamweaver and advanced Excel skills a plus.  Positive attitude, ability to multi-task and work independently are a must.  If you have a desire to work hard and contribute actively to a team, we'll train you to do the rest!  Full benefits package.  Contact morosz@libertyint.com.  No phone calls, please.
+        	</p>
+            </div></p>
+            
+        	<p><div id="jobPosting">
+                    <ul>
+                    </ul>
+        		</p>
+            </div></p>
+    </div>
+</div>
+
+
+<!-- Caption-->
+<div id="pictureCaption"></div>
+
+<!-- Bottom of the page text-->
+<div id="BottomText">©2012 Liberty International Inc &nbsp;|&nbsp;(HQ) 
+<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=951&um=1&ie=UTF-8&q=liberty+international&fb=1&gl=us&hq=liberty+international&hnear=0x89e45ca9a7f00329:0x640fc26cc3b4feb4,Pawtucket,+RI&cid=0,0,15342902277055378235&sa=X&ei=CpcSUM3eKKT40gHE3IHoCA&ved=0CGQQrwswAA">Pawtucket:</a> (401) 727-1776 &nbsp;| &nbsp;<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=895&um=1&ie=UTF-8&q=Liberty+International,+Eastern+Avenue,+Chelsea,+MA&fb=1&gl=us&hq=Liberty+International,&hnear=0x89e371c669a4f679:0x1d1e4cef9f9c8f11,Eastern+Ave,+Chelsea,+MA+02150&cid=0,0,10021051303412408715&sa=X&ei=bpcSUJGqGqaY0QGq0IHQCQ&ved=0CFYQrwswAA">Chelsea:</a> (617) 884-9700 &nbsp;| &nbsp;<a href="sitemap.html" title="Site Map" target="_self">Site Map </a>
+</div>
+
+<!-- ctpat rollover button-->
+<div id="ctpatLogo">
+	 <a href="compliancedivision.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','LibertyInternationalFinal/ctpat2.png',1)">
+     <img src="LibertyInternationalFinal/ctpat1.png" width="49" height="20" img style="border-style: none;" id="Image10" /></a>
+</div>
+
+<!-- Facebook Rollover Button-->
+<div id="facebook">
+  <a href="http://www.facebook.com/libertyint" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','LibertyInternationalFinal/facebook2.png',1)">
+	<img src="LibertyInternationalFinal/facebook1.png" width="20" height="20" img style="border-style: none;" id="Image11" /></a>
+</div>
+
+<!-- LinkedIn rollover button-->
+<div id="linkedin">
+  <a href="http://www.linkedin.com/company/liberty-international" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','LibertyInternationalFinal/linkedin2.png',1)">
+	<img src="LibertyInternationalFinal/linkedin1.png" width="20" height="20" img style="border-style: none;" id="Image12" /></a>
+</div>
+
+<!-- Youtube Rollover Button-->
+<div id="youtube">
+  <a href="http://www.youtube.com/libertyintl" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','LibertyInternationalFinal/youtube2.png',1)">
+	<img src="LibertyInternationalFinal/youtube1.png" width="20" height="20" img style="border-style: none;" id="Image13" /></a>
+</div>
+
+<div id="testDiv">
+  <img src="LibertyInternationalFinal/companynews.bkg.png">
+</div>
+
+</div> <!-- End Wrapper-->
+</body><!-- End Main Body Tag-->
+</html> <!-- End Document-->

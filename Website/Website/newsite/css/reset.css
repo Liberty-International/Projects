@@ -1,0 +1,61 @@
+/*--CSS RESET--*/
+html, body, div, span, ul, li, img, h1, h2, h3, p, a, form, fieldset, strong, em, b, font, input, button
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+body
+{
+  text-align: center; /*--IN ORDER TO CENTER THE WRAPPER IN IE--*/
+  background: #fff;
+}
+
+ul, ol, li
+{
+	list-style-type: none;
+	color: #cb9014;
+}
+
+a
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a img
+{
+	border: none;
+}
+
+/*--CLEARING FLOATS. PROVIDE CLASS NAME "clearfix" TO THE PARENT CONTAINER. HERE IT IS "ul#nav-bar"--*/
+.clearfix:after
+{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/*--FOR IE6--*/
+* html .clearfix
+{
+  height: 1%;
+}
+
+/*--FOR IE7--*/
+.clearfix
+{
+  min-height: 1px;
+}
+
+.clearleft
+{
+  clear: left;
+}
+
+
+

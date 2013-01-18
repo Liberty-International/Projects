@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" 
+      href="favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Customs Clearance</title>
+<style type="text/css">
+#logo {
+	position: relative;
+	width: 62px;
+	height: 128px;
+	z-index: 1;
+	left: 5px;
+	top: 5px;
+}
+
+#titleText {
+	position: relative;
+	width: 172px;
+	height: 60px;
+	z-index: 3;
+	left: 70px;
+	top: -85px;
+}
+#leftTitle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#rightTitle {
+	position: absolute;
+	left: 610px;
+	top: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #444444;
+}
+a:visited {
+	text-decoration: none;
+	color: #444444;
+}
+a:hover {
+	text-decoration: none;
+	color: #CB9014;
+}
+a:active {
+	text-decoration: none;
+	color: #444444;
+}
+#homeLink {
+	position: relative;
+	width: 40px;
+	height: 20px;
+	z-index: 4;
+	left: 648px;
+	top: -73px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#ISFportal {
+	position: relative;
+	width: 65px;
+	height: 20px;
+	z-index: 8;
+	left: 700px;
+	top: -93px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#AgentPortal {
+	position: relative;
+	width: 82px;
+	height: 20px;
+	z-index: 9;
+	left: 778px;
+	top: -113px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #444444;
+}
+#TrackTrace {
+	position: relative;
+	width: 90px;
+	height: 20px;
+	z-index: 10;
+	left: 873px;
+	top: -133px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#dot1 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 5;
+	left: 690px;
+	top: -146px;
+}
+#dot2 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 6;
+	left: 768px;
+	top: -150px;
+}
+#dot3 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 7;
+	left: 863px;
+	top: -154px;
+}
+#apMenuBar {
+	position: relative;
+	width: 960px;
+	height: 158px;
+	left : 0px;
+	top: -138px;
+	z-index: 40;
+}
+#theMenuBar {
+	position: relative;
+	width: 960px;
+	height: 168px;
+	left : 0px;
+	top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	z-index: 39;
+	font-weight: bold;
+	line-height:40px;
+}
+#theMenuBar a:link {
+	text-decoration: none; 
+	color: #FFF;
+	background: transparent;
+}
+#theMenuBar a:visited {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#theMenuBar a:focus {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:active {
+	text-decoration: none; 
+}
+#blueBox {
+	position: relative;
+	width: 320px;
+	height: 160px;
+	z-index: 27;
+	left: 0px;
+	top: -256px;
+	background-color: #09337B;
+}
+#pageTitleBox {
+	position: relative;
+	width: 320px;
+	height: 160px;
+	z-index: 33;
+	left: 0px;
+	top: -416px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	line-height:160px;
+}
+#topPicture {
+	position: relative;
+	width: 640px;
+	height: 160px;
+	z-index: 27;
+	left: 320px;
+	top: -576px;
+}
+#leftBackground {
+	position: relative;
+	width: 320px;
+	height: 750px;
+	z-index: 27;
+	left: 0px;
+	top: -576px;
+	background-color: #CB9014;
+
+}
+#leftPicture {
+	position: relative;
+	width: 320px;
+	height: 320px;
+	z-index: 28;
+	top: -1326px;
+	left: 0px;
+}
+
+#graybox {
+	position: relative;
+	width: 640px;
+	left: 320px;
+	height: 750px;
+	z-index: 25;
+	top: -1646px;
+	background-color: #DDDDDD;
+}
+
+#pageIntroText {
+	position: relative;
+	width: 600px;
+	height: 80px;
+	z-index: 34;
+	left: 340px;
+	top: -2376px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #444444;
+}
+#mainTextBox {
+	position: relative;
+	width: 580px;
+	height: 400px;
+	z-index: 35;
+	left: 350px;
+	top: -2321px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #444444;
+}
+#pictureCaption {
+	position: relative;
+	width: 270px;
+	height: 207px;
+	z-index: 36;
+	left: 25px;
+	top: -2570px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+#BottomText {
+	position: relative;
+	width: 760px;
+	height: 20px;
+	z-index: 2;
+	left: 10px;
+	top: -2350px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+	text-align: center;
+}
+#BottomText a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#BottomText a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#BottomText a:focus {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:active {
+	text-decoration: none; 
+}
+
+#ctpatLogo {
+	position: relative;
+	width: 49px;
+	height: 20px;
+	z-index: 20;
+	left: 790px;
+	top: -2370px;
+}
+#facebook {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 22;
+	left: 875px;
+	top: -2390px;
+}
+#linkedin {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 900px;
+	top: -2410px;
+}
+#youtube {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 925px;
+	top: -2430px;
+}
+#testDiv {
+	position: relative;
+	width: 980px;
+	height: 770px;
+	z-index: 1;
+	left: -20px;
+	top: -3405px;	
+}
+body {
+	background-image: url(LibertyInternationalFinal/testBkg.png);
+	background-repeat: no-repeat;
+	margin: 0;
+}
+#wrapper {
+	height: 1122px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-bottom: 5px;
+}
+</style>
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33758588-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body onLoad="MM_preloadImages('LibertyInternationalFinal/Logo(State 2).png')">
+
+<div id="wrapper">
+
+<!-- Logo rollover button-->
+<div id="logo">
+	<a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','LibertyInternationalFinal/Logo(State 2).png',1)">
+	<img src="LibertyInternationalFinal/Logo(State 1).png" name="Image9" width="62" height="128" img style="border-style: none;" id="Image9" /></a>
+</div>
+
+<!-- Liberty International Title Text  -->
+<div id="titleText">
+    <div id="leftTitle">
+        <img src="LibertyInternationalFinal/libinttext.png" alt="" width="172" height="80" />
+    </div>
+    <center><div id="rightTitle">
+        <img src="LibertyInternationalFinal/libinttext2.png" alt="" height="60" />
+    </div></center>
+</div>
+
+<!-- Top Right Links (Home, ISF, Agent, Track)-->
+<div id="homeLink"><a href="index.html" title="Liberty International" target="_self">Home</a></div>
+<div id="ISFportal"><a href="http://64.61.141.118/LIB10Plus2/login.aspx" title="ISF Portal" target="_self">ISF Portal</a></div>
+<div id="AgentPortal"><a href="http://64.61.141.115/lib_po/lib_po10.aspx" title="Agent Portal" target="_self">Agent Portal</a></div>
+<div id="TrackTrace"><a href="http://64.61.141.115/etrack/liblogin.asp" title="Track & Trace" target="_self">Track & Trace</a></div>
+
+<div id="dot1"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot2"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot3"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+
+
+<!-- Menu Bar SWF Object-->
+<div id="apMenuBar">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="LibertyInternationalFinal/Scripts/swfobject_modified.js"></script>
+<script type="text/javascript">
+			var flashvars = {};
+			var params = {};
+			params.wmode = "transparent";
+			var attributes = {};
+			swfobject.embedSWF("MenuBar.swf", "theMenuBar", "960", "168", "9.0.0", false, flashvars, params, attributes);
+		</script>
+	</head>
+	<body>
+		<div id="theMenuBar">
+        	&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="services.html">Services </a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="aboutus.html">About Us</a> 
+		</div>
+</body>
+</html>
+</div>
+
+<!-- blue Background Bar-->
+<div id="blueBox"></div>
+
+<div id="pageTitleBox">Customs Clearances</div>
+
+<!-- Top Pic Div-->
+<div id="topPicture"><img src="LibertyInternationalFinal/services.subtop.jpg" width="640" height="160" /></div>
+
+<!-- Yellow Background Bar-->
+<div id="leftBackground"></div> 
+<!-- Left Col Pic Div-->
+<div id="leftPicture"><img src="LibertyInternationalFinal/customsclearance.left.jpg" width="320" height="264" /></div>
+
+<!-- Main Gray Background-->
+<div id="graybox"></div>
+<div id="pageIntroText"><strong>Liberty’s Customs Brokerage Division provides clearance services at all US ports of entry.  We use exception reporting to ensure entries are filed timely, missing documents are tracked, challenges are resolved, OGA issues are appropriately handled, exams are pro-actively managed and other critical entry processes are monitored.  Playing by the rules is deeply embedded in Liberty’s culture; a compliant brokerage operation is one that grows and succeeds organically.</strong>. </div>
+<div id="mainTextBox">
+<p><strong>Customs Brokerage Services</strong> &nbsp;Liberty’s licensed brokers have over 110 years of combined experience.  More than 40% of our brokerage staff is licensed.  We bring a wide variety of experience to your business.  We are licensed brokers, Certified Customs Specialists and former importers and exporters – we’ve lived in your shoes!  Our team understands every aspect of the supply chain, from sourcing & product development to final distribution.  Most importantly, we understand the bottom line:  to deliver your merchandise on time and mitigate risk to your brand.
+  <ul>
+     <li>Liberty’s full service, national brokerage network offers RLF processing</li>
+     <li>Liberty provides complete ISF services</li>
+     <li>Liberty is a fully licensed broker with a national permit</li>
+     <li>Liberty’s well trained, experienced staff insures your entries are submitted with accurate and timely information prior to arrival whenever possible </li>
+     <li>Liberty manages your customs brokerage transactions using client driven, customized, written SOP’s, providing you with the right information in the format that works best for you</li>
+     <li>Liberty uses those SOP’s to minimize the day to day support required from you</li>
+  </ul>
+</p>
+
+<p><strong>Value Added Education</strong> &nbsp;Liberty loves to share what we know with our clients.  We enjoy what we do every day, getting excited about innovating in our industry and sharing that sense of enthusiasm with you and your team.  We maintain a training rich environment that insures we continue to bring "best in class" staff talent & knowledge to support you with information and value added service.
+ <ul>
+     <li>Liberty provides value added, up-to-the-minute updates about regulatory, security and compliance trends</li>
+     <li>Liberty’s team is passionate about innovation, education and learning and we are personally committed to our profession’s compliance mandate</li>
+     <li>Liberty provides HTS, valuation, marking, ruling, regulatory, FTA, PGA and tariff engineering advice</li>
+     <li>Liberty provides your team with personalized, targeted guidance from our Compliance Group that works closely with our brokerage team to address specific challenges we identify during transactional shipment handling</li>
+ </ul>
+</p>
+
+<p><strong>Value Added Compliance Support</strong> &nbsp;Regulatory focus on consumer product safety, compliance and security make it essential to partner with a pro-active, progressive broker.  Liberty focuses on compliance so you can focus on your core business.
+  <ul>
+     <li>Maintenance of client HTS/part number lists</li>
+     <li>Monitoring of liquidations through CBP's NILS program</li>
+     <li>KPI reporting, performance based measuring tools & pre-audit of billing</li>
+     <li>C-TPAT consultancy & ISA support</li>
+     <li>Liberty is C-TPAT certified & twice validated & acts as a consulting resource to our clients on C-TPAT and security related issues</li>
+  </ul>
+</p>
+
+<p><strong>Giving Back To The Community</strong>  &nbsp;We believe in giving back to the community that has supported our business.
+  <ul>
+    <li>Our COO is a current member of CBP's Commercial Operations Advisory Committee.  </li>
+    <li>We are active in trade organizations.</li>
+    <li>We volunteer to provide training in our local, regional and national community.</li>
+    <li>We help new importers learn the business, supporting our local economy.</li>
+    <li>We support our clients with value added training and regulatory assistance. </li>  
+    <li>We support our local community through service, fundraising and donations.</li>
+  </ul>
+</p>
+</div>
+
+
+<!-- Caption-->
+<div id="pictureCaption">
+  <p><strong>Liberty’s long term, positive relationship with CBP, Fish & Wildlife, the Food & Drug Administration (FDA), CPSC and other partner agencies enables us to quickly gather information and resolve your challenges.</strong></p>
+</div>
+
+
+<!-- Bottom of the page text-->
+<div id="BottomText">©2012 Liberty International Inc &nbsp;|&nbsp;(HQ) 
+<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=951&um=1&ie=UTF-8&q=liberty+international&fb=1&gl=us&hq=liberty+international&hnear=0x89e45ca9a7f00329:0x640fc26cc3b4feb4,Pawtucket,+RI&cid=0,0,15342902277055378235&sa=X&ei=CpcSUM3eKKT40gHE3IHoCA&ved=0CGQQrwswAA">Pawtucket:</a> (401) 727-1776 &nbsp;| &nbsp;<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=895&um=1&ie=UTF-8&q=Liberty+International,+Eastern+Avenue,+Chelsea,+MA&fb=1&gl=us&hq=Liberty+International,&hnear=0x89e371c669a4f679:0x1d1e4cef9f9c8f11,Eastern+Ave,+Chelsea,+MA+02150&cid=0,0,10021051303412408715&sa=X&ei=bpcSUJGqGqaY0QGq0IHQCQ&ved=0CFYQrwswAA">Chelsea:</a> (617) 884-9700 &nbsp;| &nbsp;<a href="sitemap.html" title="Site Map" target="_self">Site Map </a>
+</div>
+ 
+<!-- ctpat rollover button-->
+<div id="ctpatLogo">
+	 <a href="compliancedivision.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','LibertyInternationalFinal/ctpat2.png',1)">
+     <img src="LibertyInternationalFinal/ctpat1.png" width="49" height="20" img style="border-style: none;" id="Image10" /></a>
+</div>
+
+<!-- Facebook Rollover Button-->
+<div id="facebook">
+  <a href="http://www.facebook.com/libertyint" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','LibertyInternationalFinal/facebook2.png',1)">
+	<img src="LibertyInternationalFinal/facebook1.png" width="20" height="20" img style="border-style: none;" id="Image11" /></a>
+</div>
+
+<!-- LinkedIn rollover button-->
+<div id="linkedin">
+  <a href="http://www.linkedin.com/company/liberty-international" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','LibertyInternationalFinal/linkedin2.png',1)">
+	<img src="LibertyInternationalFinal/linkedin1.png" width="20" height="20" img style="border-style: none;" id="Image12" /></a>
+</div>
+
+<!-- Youtube Rollover Button-->
+<div id="youtube">
+  <a href="http://www.youtube.com/libertyintl" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','LibertyInternationalFinal/youtube2.png',1)">
+	<img src="LibertyInternationalFinal/youtube1.png" width="20" height="20" img style="border-style: none;" id="Image13" /></a>
+</div>
+
+<div id="testDiv">
+  <img src="LibertyInternationalFinal/customsclearance.bkg.png">
+</div>
+
+</div> <!-- End Wrapper-->
+</body><!-- End Main Body Tag-->
+</html> <!-- End Document-->

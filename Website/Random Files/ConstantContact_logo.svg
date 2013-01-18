@@ -5,16 +5,13 @@
 	 width="600px" height="300px" viewBox="0 0 600 300" enable-background="new 0 0 600 300" xml:space="preserve">
 <g id="Envelope">
 	<g id="Shadow" display="none">
-		
-			<image display="inline" overflow="visible" opacity="0.41" enable-background="new    " width="1008" height="555" xlink:href="A2288963.png"  transform="matrix(0.2844 0 0 0.2825 299.3105 25.3716)">
-		</image>
 		<g display="inline">
 			
-				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="121.2451" y1="883.874" x2="379.3574" y2="883.874" gradientTransform="matrix(1 0 0 1 184 -785)">
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-62.7549" y1="-468.874" x2="195.3584" y2="-468.874" gradientTransform="matrix(1 0 0 -1 368 -370)">
 				<stop  offset="0.1593" style="stop-color:#FFFFFF"/>
 				<stop  offset="1" style="stop-color:#DCE4F3"/>
 			</linearGradient>
-			<path fill="url(#SVGID_1_)" d="M372.652,64.781l-67.407,98.094c0,0,84.7-20.71,210.888-13.53l47.225-114.472
+			<path fill="url(#SVGID_1_)" d="M372.652,64.781l-67.407,98.094c0,0,84.7-20.71,210.888-13.53l47.226-114.472
 				C480.999,37.137,372.652,64.781,372.652,64.781z"/>
 		</g>
 	</g>
@@ -50,6 +47,6 @@
 	</g>
 </g>
 <text transform="matrix(1 0 0 1 14.3682 217.96)" fill="#00468C" font-family="'Arial-BoldItalicMT'" font-size="57">Global Facts Archive</text>
-<text transform="matrix(1 0 0 1 143.5 262.5)" fill="#FAB41E" font-family="'Arial-ItalicMT'" font-size="38">Add Subtext Here</text>
+<text transform="matrix(1 0 0 1 127.5 262.5)" fill="#FAB41E" font-family="'Arial-ItalicMT'" font-size="38">Liberty International</text>
 <rect x="-120.5" y="-110.5" fill="none" width="3" height="3"/>
 </svg>

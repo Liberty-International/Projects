@@ -1,0 +1,633 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" 
+      href="favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bonds</title>
+<style type="text/css">
+#logo {
+	position: relative;
+	width: 62px;
+	height: 128px;
+	z-index: 1;
+	left: 5px;
+	top: 5px;
+}
+
+#titleText {
+	position: relative;
+	width: 172px;
+	height: 60px;
+	z-index: 3;
+	left: 70px;
+	top: -85px;
+}
+#leftTitle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#rightTitle {
+	position: absolute;
+	left: 610px;
+	top: 10px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #444444;
+}
+a:visited {
+	text-decoration: none;
+	color: #444444;
+}
+a:hover {
+	text-decoration: none;
+	color: #CB9014;
+}
+a:active {
+	text-decoration: none;
+	color: #444444;
+}
+#homeLink {
+	position: relative;
+	width: 40px;
+	height: 20px;
+	z-index: 4;
+	left: 648px;
+	top: -73px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#ISFportal {
+	position: relative;
+	width: 65px;
+	height: 20px;
+	z-index: 8;
+	left: 700px;
+	top: -93px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#AgentPortal {
+	position: relative;
+	width: 82px;
+	height: 20px;
+	z-index: 9;
+	left: 778px;
+	top: -113px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #444444;
+}
+#TrackTrace {
+	position: relative;
+	width: 90px;
+	height: 20px;
+	z-index: 10;
+	left: 873px;
+	top: -133px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#dot1 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 5;
+	left: 690px;
+	top: -146px;
+}
+#dot2 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 6;
+	left: 768px;
+	top: -150px;
+}
+#dot3 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 7;
+	left: 863px;
+	top: -154px;
+}
+#apMenuBar {
+	position: relative;
+	width: 960px;
+	height: 158px;
+	left : 0px;
+	top: -138px;
+	z-index: 40;
+}
+#theMenuBar {
+	position: relative;
+	width: 960px;
+	height: 168px;
+	left : 0px;
+	top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	z-index: 39;
+	font-weight: bold;
+	line-height:40px;
+}
+#theMenuBar a:link {
+	text-decoration: none; 
+	color: #FFF;
+	background: transparent;
+}
+#theMenuBar a:visited {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#theMenuBar a:focus {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:active {
+	text-decoration: none; 
+}
+#pictureCaption a:link {
+	text-decoration: none; 
+	color: #FFFFFF;
+	background: transparent;
+}
+#pictureCaption a:visited {
+	text-decoration: none; 
+	color: #FFFFFF; 
+	background: transparent;
+}
+#pictureCaption a:hover {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#pictureCaption a:focus {
+	text-decoration: none; 
+	color: #FFFFFF; 
+	background: transparent;
+}
+#pictureCaption a:active {
+	text-decoration: none; 
+}
+#blueBox {
+	position: relative;
+	width: 320px;
+	height: 160px;
+	z-index: 27;
+	left: 0px;
+	top: -256px;
+	background-color: #09337B;
+}
+#pageTitleBox {
+	position: relative;
+	width: 320px;
+	height: 160px;
+	z-index: 33;
+	left: 0px;
+	top: -416px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	line-height:160px;
+}
+#topPicture {
+	position: relative;
+	width: 640px;
+	height: 160px;
+	z-index: 27;
+	left: 320px;
+	top: -576px;
+}
+#leftBackground {
+	position: relative;
+	width: 320px;
+	height: 850px;
+	z-index: 27;
+	left: 0px;
+	top: -576px;
+	background-color: #CB9014;
+}
+#leftPicture {
+	position: relative;
+	width: 320px;
+	height: 320px;
+	z-index: 28;
+	top: -1426px;
+	left: 0px;
+}
+
+#graybox {
+	position: relative;
+	width: 960px;
+	height: 850px;
+	z-index: 25;
+	left: 0px;
+	top: -1746px;
+	background-color: #DDDDDD;
+}
+
+#pageIntroText {
+	position: relative;
+	width: 600px;
+	height: 80px;
+	z-index: 34;
+	left: 340px;
+	top: -2575px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #444444;
+}
+#mainTextBox {
+	position: relative;
+	width: 580px;
+	height: 400px;
+	z-index: 35;
+	left: 350px;
+	top: -2574px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #444444;
+}
+#pictureCaption {
+	position: relative;
+	width: 270px;
+	height: 207px;
+	z-index: 36;
+	left: 25px;
+	top: -2770px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+}
+#BottomText {
+	position: relative;
+	width: 760px;
+	height: 20px;
+	z-index: 2;
+	left: 10px;
+	top: -2449px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+	text-align: center;
+}
+#BottomText a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#BottomText a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#BottomText a:focus {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:active {
+	text-decoration: none; 
+}
+
+#ctpatLogo {
+	position: relative;
+	width: 49px;
+	height: 20px;
+	z-index: 20;
+	left: 790px;
+	top: -2469px;
+}
+#facebook {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 22;
+	left: 875px;
+	top: -2489px;
+}
+#linkedin {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 900px;
+	top: -2509px;
+}
+#youtube {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 925px;
+	top: -2529px;
+}
+#testDiv {
+	position: relative;
+	width: 980px;
+	height: 650px;
+	z-index: 1;
+	left: -20px;
+	top: -3605px;	
+}
+body {
+	background-image: url(LibertyInternationalFinal/testBkg.png);
+	background-repeat: no-repeat;
+	margin: 0;
+}
+#wrapper {
+	height: 1222px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-bottom: 5px;
+}
+
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33758588-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body onLoad="MM_preloadImages('LibertyInternationalFinal/Logo(State 2).png')">
+
+<div id="wrapper">
+
+<!-- Logo rollover button-->
+<div id="logo">
+	<a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','LibertyInternationalFinal/Logo(State 2).png',1)">
+	<img src="LibertyInternationalFinal/Logo(State 1).png" name="Image9" width="62" height="128" img style="border-style: none;" id="Image9" /></a>
+</div>
+
+<!-- Liberty International Title Text  -->
+<div id="titleText">
+    <div id="leftTitle">
+        <img src="LibertyInternationalFinal/libinttext.png" alt="" width="172" height="80" />
+    </div>
+    <center><div id="rightTitle">
+        <img src="LibertyInternationalFinal/libinttext2.png" alt="" height="60" />
+    </div></center>
+</div>
+
+<!-- Top Right Links (Home, ISF, Agent, Track)-->
+<div id="homeLink"><a href="index.html" title="Liberty International" target="_self">Home</a></div>
+<div id="ISFportal"><a href="http://64.61.141.118/LIB10Plus2/login.aspx" title="ISF Portal" target="_self">ISF Portal</a></div>
+<div id="AgentPortal"><a href="http://64.61.141.115/lib_po/lib_po10.aspx" title="Agent Portal" target="_self">Agent Portal</a></div>
+<div id="TrackTrace"><a href="http://64.61.141.115/etrack/liblogin.asp" title="Track & Trace" target="_self">Track & Trace</a></div>
+
+<div id="dot1"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot2"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot3"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+
+
+<!-- Menu Bar SWF Object-->
+<div id="apMenuBar">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="LibertyInternationalFinal/Scripts/swfobject_modified.js"></script>
+<script type="text/javascript">
+			var flashvars = {};
+			var params = {};
+			params.wmode = "transparent";
+			var attributes = {};
+			swfobject.embedSWF("MenuBar.swf", "theMenuBar", "960", "168", "9.0.0", false, flashvars, params, attributes);
+		</script>
+	</head>
+	<body>
+		<div id="theMenuBar">
+        	&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="services.html">Services </a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="aboutus.html">About Us</a> 
+		</div>
+</body>
+</html>
+</div>
+
+<!-- blue Background Bar-->
+<div id="blueBox"></div>
+
+<div id="pageTitleBox">Bonds</div>
+
+<!-- Top Pic Div-->
+<div id="topPicture"><img src="LibertyInternationalFinal/services.subtop.jpg" width="640" height="160" /></div>
+
+<!-- Yellow Background Bar-->
+<div id="leftBackground"></div> 
+<!-- Left Col Pic Div-->
+<div id="leftPicture"><img src="LibertyInternationalFinal/bonds.left.jpg" width="320" height="264" /></div>
+
+<!-- Main Gray Background-->
+<div id="graybox"></div>
+<div id="pageIntroText"><strong>A CBP (Customs & Border Protection) bond is a contract.  Its purpose is to act as an insurance policy guaranteeing payment to CBP if the importer does not abide by the rules and regulations or if a required act is not completed.  A bond is not intended to protect the importer.  </strong> </div>
+<div id="mainTextBox">
+<p>
+    <strong>Importers should think of Customs bonds the same way they would any other underlying business service they utilize.</strong>
+    Customs bonds protect against contingent liability that comes at high costs. You want to know that when things go wrong you’ll be protected and your insurance partner will be there to stand behind you.
+</p>
+<p>
+    <strong>If Liberty writes your bond we will stand behind it and service it in a way our clients have come to expect.</strong>
+    We’ll monitor the bond’s status and let you know immediately if there are any issues. For example, CBP may sometimes change the bond amount. If your bond
+    is not kept updated, your importing privileges and the speed of your releases may be significantly impacted.
+</p>
+<p>
+    <strong>Importers understand that their Customs bond is too important to leave in the hands of someone they do not know.</strong>
+As you near your bond renewal date, Liberty would be happy to review and write your bond for you.    <strong><u><a href="mailto:nmcilvene@libertyint.com">Please contact your Liberty representative </a></u></strong>for more information.
+</p>
+<p>
+    <strong>What is a bond?</strong>
+</p>
+<p>
+    <strong></strong>
+</p>
+<p>
+    <strong>
+        A CBP (Customs &amp; Border Protection) bond is a contract. Its purpose is to act as an insurance policy guaranteeing payment to CBP if the importer
+        does not abide by the rules and regulations or if a required act is not completed. A bond is not intended to protect the importer.
+    </strong>
+</p>
+<p>
+    <strong>
+        A Customs bond is a guarantee from a surety company to the United States government that the importer will abide by all laws and regulations governing
+        the importation of merchandise into the United States.
+    </strong>
+    Any corporation, company or individual who wishes to import goods into the U.S. is required to post a bond or its cash equivalent. A bond is not designed
+    or intended to protect the importer. The purpose of a bond is to guarantee that all Customs duties, Customs penalties, and other charges assessed by U.S.
+    Customs will be paid correctly and that all trade procedures will be followed. <strong>There are 2 types of bonds:</strong>
+</p>
+<ul type="disc">
+    <li>
+        Single Entry Bond
+    </li>
+    <li>
+        Continuous Bond
+    </li>
+</ul>
+<p>
+    <strong>A Single Entry Bond is used per shipment and is good for only 1 entry. </strong>
+    The value of this type of bond is set by the port director but is generally not less than the total entered value plus all duties, taxes and fees. If the
+    goods are subject to the requirements of other government agencies the bond amount would be not less than 3 times the total entered value of the
+    merchandise.
+</p>
+<p>
+    <strong>A Continuous Bond is generally obtained by importers who have more than 1 or 2 entries and ISF’s per year.</strong>
+    Liberty International can estimate the amount of the bond, but ultimately the Revenue Division of CBP's National Finance Center sets the amount of each bond.
+    The minimum bond amount for a continuous bond is the greater of either $50,000.00 or 10% of the total amount of duties, taxes and fees paid to CBP in the previous 12 month
+    period.
+</p>
+<p>
+    <strong>What does a Customs Bond do?</strong>
+</p>
+<ul type="disc">
+    <li>
+        Secures deposit of estimated duty and additional duty
+    </li>
+    <li>
+        Secures payment of duty on merchandise left in a bonded warehouse or improperly removed from a warehouse
+    </li>
+    <li>
+        Secures promise to make entry
+    </li>
+    <li>
+        Secures promise to produce any required evidence
+    </li>
+    <li>
+        Secures promise to redeliver conditionally released merchandise
+    </li>
+    <li>
+        Secures promise to bring conditionally released merchandise into compliance with U.S. admission requirements
+    </li>
+    <li>
+        Secures promise to hold conditionally released merchandise intact for examination
+    </li>
+    <li>
+        Secures promise to pay compensation of Customs officers and exonerate Customs officers
+    </li>
+    <li>
+        Secures promise to use merchandise entered free or at a reduced rate in the manner as entitled and to furnish proof of that use
+    </li>
+</ul>
+<p>
+    <strong>Liberty’s Customs bond partner is Roanoke Trade.</strong>
+    Roanoke Trade was established in 1935. In May, 1998, the U.S. operations of Trade Insurance Services were merged with Roanoke Brokerage Services, forming
+    the largest U.S. insurance brokerage operation specializing in customs bonds and cargo insurance for the international trade community. Roanoke Trade
+    was first in the United States to serve the bonding needs of customs brokers and their clients and remains a focused advocate to the U.S importer,
+    tailoring insurance protection and surety products to accommodate industry changes whether dictated by regulation or exposures to financial
+    requirements. Roanoke is very active in the industry allowing them to keep abreast of constantly changing CBP regulations.
+</p>
+</div>
+
+
+<!-- Caption-->
+<div id="pictureCaption">
+  <strong><p> <a href="mailto:nmcilvene@libertyint.com" alt="Contact Us">Click here to contact us for more information about filing your bond.</a> </p> 
+  <p> <a href="LibertyInternationalFinal/Bond Application.pdf" alt="Bond Application Form">Click here to open the Customs bond application forms.</p>
+  </strong>
+</div>
+
+
+<!-- Bottom of the page text-->
+<div id="BottomText">©2012 Liberty International Inc &nbsp;|&nbsp;(HQ) 
+<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=951&um=1&ie=UTF-8&q=liberty+international&fb=1&gl=us&hq=liberty+international&hnear=0x89e45ca9a7f00329:0x640fc26cc3b4feb4,Pawtucket,+RI&cid=0,0,15342902277055378235&sa=X&ei=CpcSUM3eKKT40gHE3IHoCA&ved=0CGQQrwswAA">Pawtucket:</a> (401) 727-1776 &nbsp;| &nbsp;<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=895&um=1&ie=UTF-8&q=Liberty+International,+Eastern+Avenue,+Chelsea,+MA&fb=1&gl=us&hq=Liberty+International,&hnear=0x89e371c669a4f679:0x1d1e4cef9f9c8f11,Eastern+Ave,+Chelsea,+MA+02150&cid=0,0,10021051303412408715&sa=X&ei=bpcSUJGqGqaY0QGq0IHQCQ&ved=0CFYQrwswAA">Chelsea:</a> (617) 884-9700 &nbsp;| &nbsp;<a href="sitemap.html" title="Site Map" target="_self">Site Map </a>
+</div>
+ 
+
+<!-- ctpat rollover button-->
+<div id="ctpatLogo">
+	 <a href="compliancedivision.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','LibertyInternationalFinal/ctpat2.png',1)">
+     <img src="LibertyInternationalFinal/ctpat1.png" width="49" height="20" img style="border-style: none;" id="Image10" /></a>
+</div>
+
+<!-- Facebook Rollover Button-->
+<div id="facebook">
+  <a href="http://www.facebook.com/libertyint" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','LibertyInternationalFinal/facebook2.png',1)">
+	<img src="LibertyInternationalFinal/facebook1.png" width="20" height="20" img style="border-style: none;" id="Image11" /></a>
+</div>
+
+<!-- LinkedIn rollover button-->
+<div id="linkedin">
+  <a href="http://www.linkedin.com/company/liberty-international" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','LibertyInternationalFinal/linkedin2.png',1)">
+	<img src="LibertyInternationalFinal/linkedin1.png" width="20" height="20" img style="border-style: none;" id="Image12" /></a>
+</div>
+
+<!-- Youtube Rollover Button-->
+<div id="youtube">
+  <a href="http://www.youtube.com/libertyintl" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','LibertyInternationalFinal/youtube2.png',1)">
+	<img src="LibertyInternationalFinal/youtube1.png" width="20" height="20" img style="border-style: none;" id="Image13" /></a>
+</div>
+
+<div id="testDiv">
+  <img src="LibertyInternationalFinal/bonds.bkg.png">
+</div>
+
+</div> <!-- End Wrapper-->
+</body><!-- End Main Body Tag-->
+</html> <!-- End Document-->

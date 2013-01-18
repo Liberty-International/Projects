@@ -1,0 +1,766 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" 
+      href="favicon.ico" />
+      
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Services</title>
+
+<style type="text/css">
+#logo {
+	position: relative;
+	width: 62px;
+	height: 128px;
+	z-index: 1;
+	left: 5px;
+	top: 5px;
+}
+#titleText {
+	position: relative;
+	width: 172px;
+	height: 60px;
+	z-index: 3;
+	left: 70px;
+	top: -85px;
+}
+#leftTitle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#rightTitle {
+	position: absolute;
+	left: 610px;
+	top: 10px;
+}
+
+#homeLink {
+	position: relative;
+	width: 40px;
+	height: 20px;
+	z-index: 4;
+	left: 648px;
+	top: -73px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#homeLink a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#homeLink a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#homeLink a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#homeLink a:focus {
+	text-decoration: none; 
+	color: #999999; 
+	background: transparent;
+}
+#homeLink a:active {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#ISFportal {
+	position: relative;
+	width: 65px;
+	height: 20px;
+	z-index: 8;
+	left: 700px;
+	top: -93px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#ISFportal a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#ISFportal a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#ISFportal a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#ISFportal a:focus {
+	text-decoration: none; 
+	color: #999999; 
+	background: transparent;
+}
+#ISFportal a:active {
+	text-decoration: none; 
+}
+
+#AgentPortal {
+	position: relative;
+	width: 82px;
+	height: 20px;
+	z-index: 9;
+	left: 778px;
+	top: -113px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #444444;
+}
+#AgentPortal a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#AgentPortal a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#AgentPortal a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#AgentPortal a:focus {
+	text-decoration: none; 
+	color: #999999; 
+	background: transparent;
+}
+#AgentPortal a:active {
+	text-decoration: none; 
+}
+
+#TrackTrace {
+	position: relative;
+	width: 90px;
+	height: 20px;
+	z-index: 10;
+	left: 873px;
+	top: -133px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444444;
+}
+#TrackTrace a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#TrackTrace a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#TrackTrace a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#TrackTrace a:focus {
+	text-decoration: none; 
+	color: #999999; 
+	background: transparent;
+}
+#TrackTrace a:active {
+	text-decoration: none; 
+}
+
+#dot1 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 5;
+	left: 690px;
+	top: -146px;
+}
+#dot2 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 6;
+	left: 768px;
+	top: -150px;
+}
+#dot3 {
+	position: relative;
+	width: 4px;
+	height: 4px;
+	z-index: 7;
+	left: 863px;
+	top: -154px;
+}
+#apMenuBar {
+	position: relative;
+	width: 960px;
+	height: 158px;
+	left : 0px;
+	top: -138px;
+	z-index: 40;
+}
+#theMenuBar {
+	position: relative;
+	width: 960px;
+	height: 168px;
+	left : 0px;
+	top: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	z-index: 39;
+	font-weight: bold;
+	line-height:40px;
+}
+#theMenuBar a:link {
+	text-decoration: none; 
+	color: #FFF;
+	background: transparent;
+}
+#theMenuBar a:visited {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#theMenuBar a:focus {
+	text-decoration: none; 
+	color: #FFF; 
+	background: transparent;
+}
+#theMenuBar a:active {
+	text-decoration: none; 
+}
+
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #CB9014;
+}
+a:active {
+	text-decoration: none;
+}
+
+#topPicture {
+	position: relative;
+	width: 960px;
+	height: 160px;
+	z-index: 27;
+	left: -1;
+	top: -256px;
+}
+#pageTitleBox {
+	position: relative;
+	width: 100px;
+	height: 160px;
+	z-index: 28;
+	left: 50px;
+	top: -358px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	vertical-align: central;
+}
+#graybox {
+	position: relative;
+	width: 640px;
+	height: 430px;
+	z-index: 26;
+	left: 0px;
+	top: -416px;
+	background-color: #dddddd;
+}
+
+#mainTextBox {
+	position: relative;
+	width: 600px;
+	height: 410px;
+	z-index: 27;
+	left: 20px;
+	top: -836px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444444;
+}
+#blueBox {
+	position: relative;
+	width: 320px;
+	height: 190px;
+	z-index: 25;
+	left: 640px;
+	top: -1272px;
+	background-color: #09337B;
+}
+
+#subTitleText1 {
+	position: relative;
+	width: 162px;
+	height: 20px;
+	z-index: 30;
+	left: 648px;
+	top: -1442px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 20px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText2 {
+	position: relative;
+	width: 163px;
+	height: 20px;
+	z-index: 31;
+	left: 648px;
+	top: -1428px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+}
+#subTitleText3 {
+	position: relative;
+	width: 161px;
+	height: 20px;
+	z-index: 32;
+	left: 648px;
+	top: -1416px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText4 {
+	position: relative;
+	width: 150px;
+	height: 20px;
+	z-index: 33;
+	left: 648px;
+	top: -1404px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText9 {
+	position: relative;
+	width: 150px;
+	height: 20px;
+	z-index: 33;
+	left: 648px;
+	top: -1392px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText5 {
+	position: relative;
+	width: 118px;
+	height: 20px;
+	z-index: 34;
+	left: 816px;
+	top: -1542px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText6 {
+	position: relative;
+	width: 141px;
+	height: 20px;
+	z-index: 35;
+	left: 816px;
+	top: -1530px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText7 {
+	position: relative;
+	width: 147px;
+	height: 20px;
+	z-index: 36;
+	left: 816px;
+	top: -1518px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText8 {
+	position: relative;
+	width: 141px;
+	height: 20px;
+	z-index: 37;
+	left: 816px;
+	top: -1506px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#subTitleText10 {
+	position: relative;
+	width: 141px;
+	height: 20px;
+	z-index: 37;
+	left: 816px;
+	top: -1494px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px; 
+	font-size: 13px; 
+	font-weight: bold;
+	color: #FFF;
+}
+#rightPicture {
+	position: relative;
+	width: 320px;
+	height: 154px;
+	z-index: 29;
+	left: 640px;
+	top: -1472px;
+	background-color: #CB9014;
+}
+#rightYellowBox {
+	position: relative;
+	width: 320px;
+	height: 86px;
+	z-index: 24;
+	background-color: #CB9014;
+	top: -1472px;
+	left: 640px;
+}
+#captionTextBox {
+	position: relative;
+	width: 300px;
+	height: 86px;
+	z-index: 39;
+	left: 650px;
+	top: -1540px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #444444;
+}
+#BottomText {
+	position: relative;
+	width: 760px;
+	height: 20px;
+	z-index: 2;
+	left: 10px;
+	top: -1545px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #444444;
+	text-align: center;
+}
+#BottomText a:link {
+	text-decoration: none; 
+	color: #444444;
+	background: transparent;
+}
+#BottomText a:visited {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:hover {
+	text-decoration: none; 
+	color: #CB9014; 
+	background: transparent;
+}
+#BottomText a:focus {
+	text-decoration: none; 
+	color: #444444; 
+	background: transparent;
+}
+#BottomText a:active {
+	text-decoration: none; 
+}
+#ctpatLogo {
+	position: relative;
+	width: 49px;
+	height: 20px;
+	z-index: 20;
+	left: 790px;
+	top: -1565px;
+}
+#facebook {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 22;
+	left: 875px;
+	top: -1585px;
+}
+#linkedin {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 900px;
+	top: -1605px;
+}
+#youtube {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	z-index: 23;
+	left: 925px;
+	top: -1625px;
+}
+#testDiv {
+	position: relative;
+	width: 980px;
+	height: 650px;
+	z-index: 1;
+	left: -20px;
+	top: -2288px;	
+}
+body {
+	background-repeat: no-repeat;
+	margin: 0;
+	background-image: url(LibertyInternationalFinal/testBkg.png);
+}
+#wrapper {
+	height: 800px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new  Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<script src="LibertyInternationalFinal/Scripts/swfobject_modified.js" type="text/javascript"></script>
+<!--Google Analytics-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33758588-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('LibertyInternationalFinal/Logo(State 2).png')">
+
+<div id="wrapper">
+
+<!-- Logo Image Rollover Behavior-->
+<div id="logo">
+	<a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','LibertyInternationalFinal/Logo(State 2).png',1)">
+	<img src="LibertyInternationalFinal/Logo(State 1).png" name="Image9" width="62" height="128" img style="border-style: none;" id="Image9" /></a>
+</div>
+
+<!-- 'Liberty International' Title-->
+<div id="titleText">
+    <div id="leftTitle">
+        <img src="LibertyInternationalFinal/libinttext.png" alt="" width="172" height="80" />
+    </div>
+    <center><div id="rightTitle">
+        <img src="LibertyInternationalFinal/libinttext2.png" alt="" height="60" />
+    </div></center>
+</div>
+
+<!-- 'Home' Text Link -->
+<div id="homeLink"><a href="index.html" title="Liberty International" target="_self">Home</a></div>
+
+<!-- 'ISF Portal' Text Link -->
+<div id="ISFportal"><a href="http://64.61.141.118/LIB10Plus2/login.aspx" title="ISF Portal" target="_self">ISF Portal</a></div>
+
+<!-- 'Agent Portal' Text Link -->
+<div id="AgentPortal"><a href="http://64.61.141.115/lib_po/lib_po10.aspx" title="Agent Portal" target="_self">Agent Portal</a></div>
+
+<!-- 'Track & Trace' Text Link -->
+<div id="TrackTrace"><a href="http://64.61.141.115/etrack/liblogin.asp" title="Track & Trace" target="_self">Track & Trace</a></div>
+
+<!-- small dots between text links-->
+<div id="dot1"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot2"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+<div id="dot3"><img src="LibertyInternationalFinal/smalldot.png" alt="" width="4" height="4" /></div>
+
+
+<!-- Menu Bar SWF Object-->
+<div id="apMenuBar">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="LibertyInternationalFinalScripts/swfobject_modified.js"></script>
+<script type="text/javascript">
+			var flashvars = {};
+			var params = {};
+			params.wmode = "transparent";
+			var attributes = {};
+			swfobject.embedSWF("MenuBar.swf", "theMenuBar", "960", "168", "9.0.0", false, flashvars, params, attributes);
+		</script>
+	</head>
+	<body>
+		<div id="theMenuBar">
+			&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="services.html">Services </a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="resources.html">Resources</a>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="aboutus.html">About Us</a> 
+		</div>
+</body>
+</html>
+</div>
+
+<!-- Top Picture -->
+<div id="topPicture"><img src="LibertyInternationalFinal/services.top.jpg" alt="" width="960" height="160" /></div>
+
+<!-- Page Title -->
+<div id="pageTitleBox">Services</div>
+
+<!-- Light Gray Background Under main text-->
+<div id="graybox"></div>
+<div id="mainTextBox">
+<p align="center">
+    <strong>Liberty’s Commitment to Extraordinary Service</strong>
+</p>
+<p>
+    Liberty’s team believes that our company is about our people. We are more than a collection of service offerings.
+</p>
+<p>
+    We actively contribute value to our clients’ businesses through personalized, customized logistics solutions and through value-added innovation and
+    education.<strong></strong>
+</p>
+<p>
+    To deliver extraordinary service to your business, we gather the right people and the right resources.
+</p>
+<p>
+    We strive for the greatest possible reliability &amp; quality in our services, to be the standard of comparison in our industry and to be recognized as a
+    company of honesty, integrity, compliance and good citizenship in the community in every way. <strong></strong>
+</p>
+</div>
+
+<!-- Blue Background for Contact Us area-->
+<div id="blueBox"></div>
+
+<!-- Services Links Buttons -->
+<div id="subTitleText1"><a href="globaltransportation.html">Global Transportation</a></div>
+<div id="subTitleText2"><a href="clientservicesdivision.html">Client Services Division</a></div>
+<div id="subTitleText3"><a href="truckinganddistribution.html">Trucking & Distribution</a></div>
+<div id="subTitleText4"><a href="valueaddedservices.html">Value Added Services</a></div>
+<div id="subTitleText9"><a href="marineinsurance.html">Marine Insurance</a></div>
+
+<div id="subTitleText5"><a href="exportdivision.html">Export Division</a></div>
+<div id="subTitleText6"><a href="compliancedivision.html">Compliance Division</a></div>
+<div id="subTitleText7"><a href="pomanagement.html">PO Management</a></div>
+<div id="subTitleText8"><a href="customsclearance.html">Customs Clearances</a></div>
+<div id="subTitleText10"><a href="bonds.html">Bonds</a></div>
+
+
+
+<!-- Right Picture -->
+<div id="rightPicture"> <img src="LibertyInternationalFinal/services.right.png" width="320" height="154"/></div>
+
+<!-- rightYellowBox -->
+<div id="rightYellowBox"></div>
+<div id="captionTextBox">Our team works hard to be unsurpassed in our industry in client focus, always insuring our operation first serves our clients.</div>
+
+
+<!-- Bottom of the page text-->
+<div id="BottomText">©2012 Liberty International Inc &nbsp;|&nbsp;(HQ) 
+<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=951&um=1&ie=UTF-8&q=liberty+international&fb=1&gl=us&hq=liberty+international&hnear=0x89e45ca9a7f00329:0x640fc26cc3b4feb4,Pawtucket,+RI&cid=0,0,15342902277055378235&sa=X&ei=CpcSUM3eKKT40gHE3IHoCA&ved=0CGQQrwswAA">Pawtucket:</a> (401) 727-1776 &nbsp;| &nbsp;<a href="http://maps.google.com/maps?hl=en&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&biw=1173&bih=895&um=1&ie=UTF-8&q=Liberty+International,+Eastern+Avenue,+Chelsea,+MA&fb=1&gl=us&hq=Liberty+International,&hnear=0x89e371c669a4f679:0x1d1e4cef9f9c8f11,Eastern+Ave,+Chelsea,+MA+02150&cid=0,0,10021051303412408715&sa=X&ei=bpcSUJGqGqaY0QGq0IHQCQ&ved=0CFYQrwswAA">Chelsea:</a> (617) 884-9700 &nbsp;| &nbsp;<a href="sitemap.html" title="Site Map" target="_self">Site Map </a>
+</div>
+
+<div id="ctpatLogo">
+  <a href="compliancedivision.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','LibertyInternationalFinal/ctpat2.png',1)">
+  <img src="LibertyInternationalFinal/ctpat1.png" width="49" height="20" id="Image10" />
+  </a>
+</div>
+
+<!-- Facebook Icon Rollover-->
+<div id="facebook">
+  <a href="http://www.facebook.com/libertyint" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','LibertyInternationalFinal/facebook2.png',1)">
+  <img src="LibertyInternationalFinal/facebook1.png" width="20" height="20" id="Image11" />
+  </a>
+</div>
+
+<!-- LinkedIn Icon Rollover-->
+<div id="linkedin">
+  <a href="http://www.linkedin.com/company/liberty-international" onmouseout="MM_swapImgRestore()" onmouseover=	"MM_swapImage('Image12','','LibertyInternationalFinal/linkedin2.png',1)"><img src="LibertyInternationalFinal/linkedin1.png" width="20" height="20" id="Image12" />
+  </a>
+</div>
+
+<!-- YouTube Icon Rollover-->
+<div id="youtube">
+  <a href="http://www.youtube.com/libertyintl" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','LibertyInternationalFinal/youtube2.png',1)"><img src="LibertyInternationalFinal/youtube1.png" width="20" height="20" id="Image13" />
+  </a>
+</div>
+
+<div id="testDiv">
+  <img src="LibertyInternationalFinal/subBkg.png">
+</div>
+
+</div> <!-- End Wrapper-->
+</body><!-- End Main Body Tag-->
+</html> <!-- End Document-->
